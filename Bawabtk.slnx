@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Bawabtk/Bawabtk.csproj" />
+  <Project Path="CleanArchitecture.Core/CleanArchitecture.Core.csproj" />
+  <Project Path="CleanArchitecture.Infrastructre/CleanArchitecture.Infrastructre.csproj" />
+  <Project Path="CleanArchitecture.Service/CleanArchitecture.Service.csproj" />
+  <Project Path="CleanArchitecture.Shared/CleanArchitecture.Shared.csproj" />
+</Solution>

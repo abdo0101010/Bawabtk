@@ -1,0 +1,12 @@
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\bin\Debug\net10.0\CleanArchitecture.Service.deps.json
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\bin\Debug\net10.0\CleanArchitecture.Service.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\bin\Debug\net10.0\CleanArchitecture.Service.pdb
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\obj\Debug\net10.0\CleanArchitecture.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\obj\Debug\net10.0\CleanArchitecture.Service.AssemblyInfoInputs.cache
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\obj\Debug\net10.0\CleanArchitecture.Service.AssemblyInfo.cs
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\obj\Debug\net10.0\CleanArchitecture.Service.csproj.CoreCompileInputs.cache
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\obj\Debug\net10.0\CleanArchitecture.Service.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\obj\Debug\net10.0\refint\CleanArchitecture.Service.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\obj\Debug\net10.0\CleanArchitecture.Service.pdb
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\obj\Debug\net10.0\ref\CleanArchitecture.Service.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Service\obj\Debug\net10.0\CleanArc.B71FCD99.Up2Date

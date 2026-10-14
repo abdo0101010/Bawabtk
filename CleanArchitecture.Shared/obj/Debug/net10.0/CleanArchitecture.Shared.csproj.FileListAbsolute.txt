@@ -1,0 +1,12 @@
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\bin\Debug\net10.0\CleanArchitecture.Shared.deps.json
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\bin\Debug\net10.0\CleanArchitecture.Shared.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\bin\Debug\net10.0\CleanArchitecture.Shared.pdb
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\CleanArchitecture.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\CleanArchitecture.Shared.AssemblyInfoInputs.cache
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\CleanArchitecture.Shared.AssemblyInfo.cs
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\CleanArchitecture.Shared.csproj.CoreCompileInputs.cache
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\CleanArchitecture.Shared.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\refint\CleanArchitecture.Shared.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\CleanArchitecture.Shared.pdb
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\ref\CleanArchitecture.Shared.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\CleanArc.34AA7CFF.Up2Date

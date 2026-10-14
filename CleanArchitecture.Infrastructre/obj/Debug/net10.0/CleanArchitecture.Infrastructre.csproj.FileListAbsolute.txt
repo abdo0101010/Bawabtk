@@ -1,0 +1,17 @@
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\bin\Debug\net10.0\CleanArchitecture.Infrastructre.deps.json
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\bin\Debug\net10.0\CleanArchitecture.Infrastructre.runtimeconfig.json
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\bin\Debug\net10.0\CleanArchitecture.Infrastructre.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\bin\Debug\net10.0\CleanArchitecture.Infrastructre.pdb
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\CleanArchitecture.Infrastructre.csproj.AssemblyReference.cache
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\CleanArchitecture.Infrastructre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\CleanArchitecture.Infrastructre.AssemblyInfoInputs.cache
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\CleanArchitecture.Infrastructre.AssemblyInfo.cs
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\CleanArchitecture.Infrastructre.csproj.CoreCompileInputs.cache
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\CleanArchitecture.Infrastructre.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\refint\CleanArchitecture.Infrastructre.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\CleanArchitecture.Infrastructre.pdb
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\CleanArchitecture.Infrastructre.genruntimeconfig.cache
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\ref\CleanArchitecture.Infrastructre.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\obj\Debug\net10.0\CleanArc.2CC7020A.Up2Date
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\bin\Debug\net10.0\CleanArchitecture.Core.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Infrastructre\bin\Debug\net10.0\CleanArchitecture.Core.pdb
