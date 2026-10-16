@@ -9,3 +9,4 @@ C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Core\obj\Debug\net10.0\Cle
 C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Core\obj\Debug\net10.0\refint\CleanArchitecture.Core.dll
 C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Core\obj\Debug\net10.0\CleanArchitecture.Core.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Core\obj\Debug\net10.0\ref\CleanArchitecture.Core.dll
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Core\obj\Debug\net10.0\CleanArchitecture.Core.sourcelink.json

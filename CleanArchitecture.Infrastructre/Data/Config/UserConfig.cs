@@ -1,5 +1,4 @@
-﻿
-using CleanArchitecture.Core.Entites;
+﻿using CleanArchitecture.Core.Entites.Users;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

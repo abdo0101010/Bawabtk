@@ -1,6 +1,4 @@
-﻿
-
-namespace CleanArchitecture.Core.Entites
+﻿namespace CleanArchitecture.Core.Entites.Users
 {
     public class User:BaseEntity
     {

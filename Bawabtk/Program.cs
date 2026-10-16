@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 var AddBawabtkDbContextString = builder.Configuration.GetSection("ConnectionStrings:DefaultConnection");
 builder.Services.AddBawabtkDbContext(AddBawabtkDbContextString.Value!);
+builder.Services.AddInfrastructureResgistertion();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
