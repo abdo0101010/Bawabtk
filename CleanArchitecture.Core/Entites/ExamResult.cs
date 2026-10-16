@@ -1,5 +1,7 @@
 ﻿
 
+using CleanArchitecture.Core.Entites.Users;
+
 namespace CleanArchitecture.Core.Entites
 {
     public class ExamResult:BaseEntity
