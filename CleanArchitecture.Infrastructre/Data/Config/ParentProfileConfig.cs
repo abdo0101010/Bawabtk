@@ -1,5 +1,4 @@
-﻿
-using CleanArchitecture.Core.Entites;
+﻿using CleanArchitecture.Core.Entites.ParentsProfile;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

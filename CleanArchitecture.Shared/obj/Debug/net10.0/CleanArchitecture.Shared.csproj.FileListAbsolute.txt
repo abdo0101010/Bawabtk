@@ -10,3 +10,4 @@ C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\r
 C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\CleanArchitecture.Shared.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\ref\CleanArchitecture.Shared.dll
 C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\CleanArc.34AA7CFF.Up2Date
+C:\Users\AbdoA\source\repos\Bawabtk\CleanArchitecture.Shared\obj\Debug\net10.0\CleanArchitecture.Shared.sourcelink.json

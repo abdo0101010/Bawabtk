@@ -1,7 +1,6 @@
-﻿
-using CleanArchitecture.Core.Entites.Users;
+﻿using CleanArchitecture.Core.Entites.Users;
 
-namespace CleanArchitecture.Core.Entites
+namespace CleanArchitecture.Core.Entites.ParentsProfile
 {
     public class ParentProfile:BaseEntity
     {
