@@ -1,4 +1,6 @@
-﻿namespace CleanArchitecture.Core.Entites.Users
+﻿using CleanArchitecture.Core.Entites.ParentsProfile;
+
+namespace CleanArchitecture.Core.Entites.Users
 {
     public class User:BaseEntity
     {

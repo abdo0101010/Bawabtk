@@ -1,0 +1,12 @@
+# Build folders
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.db
+
+# OS files
+Thumbs.db
