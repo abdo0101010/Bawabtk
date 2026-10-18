@@ -1,8 +1,8 @@
 ﻿using Azure.Core;
 using BCrypt.Net;
-using CleanArchitecture.Core.Entites;
 using CleanArchitecture.Core.Entites.ParentsProfile;
 using CleanArchitecture.Core.Entites.ParentsProfile.Specefication;
+using CleanArchitecture.Core.Entites.Student;
 using CleanArchitecture.Core.Entites.Users;
 using CleanArchitecture.Core.Entites.Users.Specefication;
 using CleanArchitecture.Core.Interfaces;
@@ -95,19 +95,49 @@ namespace CleanArchitecture.Service.Services.Student
 
             throw new ResultException("Invalid response type", (int)HttpStatusCode.InternalServerError);
         }
-        public ValueTask Delete(Guid id)
+        public async ValueTask Delete(Guid id)
         {
-            throw new NotImplementedException();
+            var spec = new Core.Entites.Student.Specefication.ReadByIdSpecification(id);
+            var oData = await _stdrepo.FirstOrDefaultAsync(spec);
+            if (oData == null)
+                throw new ResultException("cannot found this user", ((int)HttpStatusCode.NotFound));
+            await _stdrepo.DeleteAsync(oData);
         }
 
-        public ValueTask<List<TResponse>> Read()
+        public async ValueTask<List<TResponse>> Read()
         {
-            throw new NotImplementedException();
+            var Spec = new Core.Entites.Student.Specefication.ReadSpecefication();
+            var oData =await _stdrepo.ListAsync(Spec);
+            if (oData == null || !oData.Any())
+                return new List<TResponse>();
+            var oResult = oData.Select(s => new StudentContract
+            {
+                StudentUserGuid = s.User != null ? s.User._UserId : Guid.Empty,
+                StudentProfileGuid = s._StudentProfileId,
+                ParentProfileGuid = s.Parent != null ? s.Parent._ParentProfileId : Guid.Empty,
+                StudentName = s.User != null ? s.User.FullName : string.Empty,
+                UnifiedBarcode = s.UnifiedBarcode,
+                GradeLevel = s.GradeLevel
+            }).ToList();
+            return oResult as dynamic;
         }
 
-        public ValueTask<TResponse> ReadById(Guid id)
+        public async ValueTask<TResponse> ReadById(Guid id)
         {
-            throw new NotImplementedException();
+            var spec = new Core.Entites.Student.Specefication.ReadByIdSpecification(id);
+            var oData =await _stdrepo.FirstOrDefaultAsync(spec);
+            if (oData == null)
+                throw new ResultException("cannot found this user", ((int)HttpStatusCode.NotFound));
+            var oResult = new StudentContract()
+            {
+                GradeLevel = oData.GradeLevel,
+                ParentProfileGuid = oData.Parent._ParentProfileId,
+                StudentName = oData.User.FullName,
+                StudentProfileGuid = oData._StudentProfileId,
+                StudentUserGuid = oData.User._UserId,
+                UnifiedBarcode = oData.UnifiedBarcode
+            };
+            return oResult as dynamic;
         }
 
         public ValueTask<TResponse> ReadSingleByParentId(Guid id, Guid ParentId)
@@ -115,9 +145,34 @@ namespace CleanArchitecture.Service.Services.Student
             throw new NotImplementedException();
         }
 
-        public ValueTask<TResponse> Update(TRequest request, Guid id)
+        public async ValueTask<TResponse> Update(TRequest request, Guid id)
         {
-            throw new NotImplementedException();
+            var oContract = request as StudentOperationContract;
+            var spec = new Core.Entites.Student.Specefication.ReadByIdSpecification(id);
+            var oData = await _stdrepo.FirstOrDefaultAsync(spec);
+            if (oData == null)
+                throw new ResultException("cannot found this user", ((int)HttpStatusCode.NotFound));
+            oData.GradeLevel = oContract.GradeLevel;
+            oData.User.FullName = oContract.StudentFullName;
+            oData.SchoolName = oContract.SchoolName;
+            oData.User.ProfilePictureUrl = oContract.ProfilePictureUrl;
+            oData.User.PasswordHash = BCrypt.Net.BCrypt.HashPassword(oContract.Password);
+            oData.Parent.WhatsAppNumber = oContract.ParentWhatsAppNumber;
+            oData.User.PhoneNumber = oContract.StudentPhoneNumber;
+            
+             
+             await _stdrepo.UpdateAsync(oData);
+            var oResult = new StudentContract()
+            {
+                GradeLevel = oData.GradeLevel,
+                StudentName = oData.User.FullName,
+                ParentProfileGuid = oData.Parent._ParentProfileId,
+                StudentProfileGuid = oData._StudentProfileId,
+                StudentUserGuid = oData.User._UserId,
+                UnifiedBarcode = oData.UnifiedBarcode
+
+            };
+            return oResult as dynamic;
         }
 
         public ValueTask UpdateParentById(Guid ParentId)

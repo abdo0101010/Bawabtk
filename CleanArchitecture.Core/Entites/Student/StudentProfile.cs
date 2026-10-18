@@ -1,8 +1,7 @@
-﻿
-using CleanArchitecture.Core.Entites.ParentsProfile;
+﻿using CleanArchitecture.Core.Entites.ParentsProfile;
 using CleanArchitecture.Core.Entites.Users;
 
-namespace CleanArchitecture.Core.Entites
+namespace CleanArchitecture.Core.Entites.Student
 {
     public class StudentProfile : BaseEntity
     {

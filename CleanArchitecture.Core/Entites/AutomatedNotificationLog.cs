@@ -1,4 +1,5 @@
 ﻿
+using CleanArchitecture.Core.Entites.Student;
 using static CleanArchitecture.Core.Entites.Enums;
 
 namespace CleanArchitecture.Core.Entites
