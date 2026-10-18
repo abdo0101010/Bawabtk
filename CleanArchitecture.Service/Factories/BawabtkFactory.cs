@@ -1,5 +1,5 @@
-﻿using CleanArchitecture.Core.Entites;
-using CleanArchitecture.Core.Entites.ParentsProfile;
+﻿using CleanArchitecture.Core.Entites.ParentsProfile;
+using CleanArchitecture.Core.Entites.Student;
 using CleanArchitecture.Core.Entites.Users;
 using CleanArchitecture.Core.Interfaces;
 using CleanArchitecture.Service.Services.Student;

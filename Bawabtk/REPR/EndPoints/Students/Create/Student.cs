@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Core.Entites;
+﻿using CleanArchitecture.Core.Entites.Student;
 using CleanArchitecture.Service.Factories;
 using CleanArchitecture.Shared.Contract.Student;
 using huzcodes.Endpoints.Abstractions;

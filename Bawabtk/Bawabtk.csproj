@@ -21,10 +21,4 @@
     <ProjectReference Include="..\CleanArchitecture.Service\CleanArchitecture.Service.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="REPR\EndPoints\Students\Delete\" />
-    <Folder Include="REPR\EndPoints\Students\Read\" />
-    <Folder Include="REPR\EndPoints\Students\Update\" />
-  </ItemGroup>
-
 </Project>
