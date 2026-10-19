@@ -5,7 +5,7 @@ namespace CleanArchitecture.Core.Entites.ParentsProfile.Specefication
     {
         public ReadSpecefication()
         {
-            Query.Where(p => p._ParentProfileId != Guid.Empty);
+            Query.Where(p => p._ParentProfileId != Guid.Empty).Include(u=>u.User);
         }
     }
 }

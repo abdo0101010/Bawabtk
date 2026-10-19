@@ -5,6 +5,10 @@
         public static class ParentRoutes {
             public const string BaseUrl = "/Parent";
             public const string ReadById = BaseUrl + "/{ParentId}";
+            public const string Create = BaseUrl + "/Create";
+            public const string Delete = BaseUrl + "/{ParentId}";
+            public const string Update = BaseUrl + "/{ParentId}";
+
 
         }
 

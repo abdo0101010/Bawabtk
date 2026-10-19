@@ -9,7 +9,7 @@ namespace CleanArchitecture.Core.Entites.ParentsProfile.Specefication
     {
         public ReadByIdSpecefication(Guid id)
         {
-            Query.Where(p => p._ParentProfileId == id);
+            Query.Where(p => p._ParentProfileId == id).Include(u=>u.User);
             
         }
     }
