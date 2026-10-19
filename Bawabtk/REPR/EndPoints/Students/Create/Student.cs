@@ -15,7 +15,7 @@ namespace Bawabtk.REPR.EndPoints.Students.Create
         public override async Task<ActionResult<StudentResponse>> HandleAsync(StudentRequest request, CancellationToken cancellationToken = default)
         {
             if (request == null)
-                throw new ResultException("cannot send nyllable request", ((int)HttpStatusCode.BadRequest));
+                throw new ResultException("cannot send nullable request", ((int)HttpStatusCode.BadRequest));
             var service = _bawabtkFactory.Build(nameof(StudentProfile));
             var oData = new StudentOperationContract()
             {

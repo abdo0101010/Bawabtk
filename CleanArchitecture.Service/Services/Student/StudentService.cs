@@ -15,7 +15,7 @@ using static CleanArchitecture.Core.Entites.Enums;
 
 namespace CleanArchitecture.Service.Services.Student
 {
-    public class StudentService<TRequest, TResponse>(IRepository<User> userrepo,IRepository<StudentProfile>stdrepo,IRepository<ParentProfile>parentrepo) : GenericServices<TRequest, TResponse>
+    public class StudentService<TRequest, TResponse>(IRepository<User> userrepo,IRepository<StudentProfile>stdrepo,IRepository<ParentProfile>parentrepo) : IGenericServices<TRequest, TResponse>
     {
         private readonly IRepository<User> _userrepo = userrepo;
         private readonly IRepository<StudentProfile> _stdrepo = stdrepo;

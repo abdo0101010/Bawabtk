@@ -1,6 +1,6 @@
 ﻿namespace CleanArchitecture.Core.Interfaces
 {
-    public interface GenericServices<TRequest,TResponse>
+    public interface IGenericServices<TRequest,TResponse>
     {
         public ValueTask<TResponse> Create(TRequest request);
         public ValueTask<TResponse> Update(TRequest request,Guid id);
