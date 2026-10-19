@@ -7,7 +7,7 @@
         public ValueTask Delete(Guid id);
         public ValueTask<List<TResponse>> Read();
         public ValueTask<TResponse> ReadById(Guid id);
-        public ValueTask UpdateParentById(Guid ParentId);
+        public ValueTask UpdateParentById(Guid ParentId,Guid contractid);
         public ValueTask<TResponse> ReadSingleByParentId(Guid id, Guid ParentId);
 
     }

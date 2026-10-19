@@ -41,6 +41,7 @@ namespace CleanArchitecture.Core.Entites.Student
             ModifiedBy = Guid.Empty;
             ModifiedOn = DateTimeOffset.Now;
         }
+        public void SetParent(ParentProfile parentProfile) => Parent = parentProfile;
         public void MarkBarcodeSent(Guid modifiedBy)
         {
             IsBarcodeSentViaWhatsApp = true;

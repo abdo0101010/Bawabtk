@@ -9,6 +9,7 @@ using CleanArchitecture.Core.Interfaces;
 using CleanArchitecture.Shared.Contract.Student;
 using huzcodes.Extensions.Exceptions;
 using huzcodes.Persistence.Interfaces.Repositories;
+using System.Diagnostics.Contracts;
 using System.Net;
 using static CleanArchitecture.Core.Entites.Enums;
 
@@ -140,9 +141,30 @@ namespace CleanArchitecture.Service.Services.Student
             return oResult as dynamic;
         }
 
-        public ValueTask<TResponse> ReadSingleByParentId(Guid id, Guid ParentId)
+        public async ValueTask<TResponse> ReadSingleByParentId(Guid id, Guid ParentId)
         {
-            throw new NotImplementedException();
+            if (ParentId == Guid.Empty || id == Guid.Empty)
+                throw new ResultException("cannot send null id", ((int)HttpStatusCode.BadRequest));
+            var specparent = new Core.Entites.ParentsProfile.Specefication.ReadByIdSpecefication(ParentId);
+            var parent = await _parentrepo.FirstOrDefaultAsync(specparent);
+            if (parent == null)
+                throw new ResultException("cannot found parent", ((int)HttpStatusCode.NotFound));
+            var specstd = new Core.Entites.Student.Specefication.ReadByIdSpecification(id);
+            var std = await _stdrepo.FirstOrDefaultAsync(specstd);
+            var specresult = new Core.Entites.Student.Specefication.ReadSingleByParentId(ParentId, id);
+            var oData = await _stdrepo.FirstOrDefaultAsync(specresult);
+            if (oData == null)
+                throw new ResultException("cannot found student for this parent", ((int)HttpStatusCode.NotFound));
+            var oResult = new StudentContract()
+            {
+                GradeLevel=oData.GradeLevel,
+                ParentProfileGuid=oData.Parent._ParentProfileId,
+                StudentName=oData.User.FullName,
+                UnifiedBarcode=oData.UnifiedBarcode,
+                StudentProfileGuid=oData._StudentProfileId,
+                StudentUserGuid=oData.User._UserId
+            };
+            return oResult as dynamic;
         }
 
         public async ValueTask<TResponse> Update(TRequest request, Guid id)
@@ -175,9 +197,20 @@ namespace CleanArchitecture.Service.Services.Student
             return oResult as dynamic;
         }
 
-        public ValueTask UpdateParentById(Guid ParentId)
+        public async ValueTask UpdateParentById(Guid ParentId,Guid contractid)
         {
-            throw new NotImplementedException();
+            if (ParentId == Guid.Empty|| contractid == Guid.Empty)
+                throw new ResultException("cannot send null id", ((int)HttpStatusCode.BadRequest));
+            var specparent = new Core.Entites.ParentsProfile.Specefication.ReadByIdSpecefication(ParentId);
+            var parent =await _parentrepo.FirstOrDefaultAsync(specparent);
+            if(parent==null)
+                throw new ResultException("cannot found parent", ((int)HttpStatusCode.NotFound));
+            var specstd= new Core.Entites.Student.Specefication.ReadByIdSpecification(contractid);
+            var std =await _stdrepo.FirstOrDefaultAsync(specstd);
+            if (std == null)
+                throw new ResultException("cannot found Student", ((int)HttpStatusCode.NotFound));
+             std.SetParent(parent);
+            await _stdrepo.UpdateAsync(std);
         }
     }
 }
