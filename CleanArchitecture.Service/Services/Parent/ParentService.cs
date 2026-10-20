@@ -15,9 +15,9 @@ using static CleanArchitecture.Core.Entites.Enums;
 
 namespace CleanArchitecture.Service.Services.Parent
 {
-    public class ParentService<TRequest, TResponse>(IRepository<User> userrepo, IRepository<StudentProfile> stdrepo, IRepository<ParentProfile> parentrepo) : IGenericServices<TRequest, TResponse>
+    public class ParentService<TRequest, TResponse>(IRepository<Core.Entites.Users.User> userrepo, IRepository<StudentProfile> stdrepo, IRepository<ParentProfile> parentrepo) : IGenericServices<TRequest, TResponse>
     {
-        private readonly IRepository<User> _userrepo = userrepo;
+        private readonly IRepository<Core.Entites.Users.User> _userrepo = userrepo;
         private readonly IRepository<StudentProfile> _stdrepo = stdrepo;
         private readonly IRepository<ParentProfile> _parentrepo = parentrepo;
         public async ValueTask<TResponse> Create(TRequest request)
@@ -29,7 +29,7 @@ namespace CleanArchitecture.Service.Services.Parent
             var parentnumberexist = await _parentrepo.FirstOrDefaultAsync(specparent);
             if (parentnumberexist != null)
                 throw new ResultException("the number is exist please try with anthor number",((int)HttpStatusCode.BadRequest));
-            var user = new User(oContract.FullName, oContract.PhoneNumber, BCrypt.Net.BCrypt.HashPassword(oContract.Password), UserRole.Parent, oContract.ProfilePictureUrl, oContract.Email);
+            var user = new Core.Entites.Users.User(oContract.FullName, oContract.PhoneNumber, BCrypt.Net.BCrypt.HashPassword(oContract.Password), UserRole.Parent, oContract.ProfilePictureUrl, oContract.Email);
             var newuser = await _userrepo.AddAsync(user);
 
             var oData = new ParentProfile(newuser.Id, newuser._UserId, newuser.PhoneNumber, address: oContract.Address,jobTitle:oContract.JobTitle);
