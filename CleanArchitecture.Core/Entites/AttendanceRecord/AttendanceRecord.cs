@@ -1,9 +1,8 @@
-﻿
-using CleanArchitecture.Core.Entites.Student;
+﻿using CleanArchitecture.Core.Entites.Student;
 using CleanArchitecture.Core.Entites.Users;
 using static CleanArchitecture.Core.Entites.Enums;
 
-namespace CleanArchitecture.Core.Entites
+namespace CleanArchitecture.Core.Entites.AttendanceRecord
 {
     public class AttendanceRecord:BaseEntity
     {
@@ -17,7 +16,7 @@ namespace CleanArchitecture.Core.Entites
         public string Notes { get; set; } = string.Empty;
 
         // Relations
-        public OfflineSession Session { get; set; } = null!;
+        public Core.Entites.OfflineSession.OfflineSession Session { get; set; } = null!;
         public StudentProfile Student { get; set; } = null!;
         public User? ScannedByAssistant { get; set; }
 

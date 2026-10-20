@@ -1,9 +1,7 @@
-﻿
-
-using CleanArchitecture.Core.Entites.Student;
+﻿using CleanArchitecture.Core.Entites.Student;
 using static CleanArchitecture.Core.Entites.Enums;
 
-namespace CleanArchitecture.Core.Entites
+namespace CleanArchitecture.Core.Entites.Enrollment
 {
     public class Enrollment:BaseEntity
     {

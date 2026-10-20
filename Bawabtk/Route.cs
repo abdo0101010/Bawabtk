@@ -27,5 +27,11 @@
             public const string BaseUrl = "/User";
             public const string Login = BaseUrl+"/Login";
         }
+        public static class AttendanceRoutes
+        {
+            public const string BaseUrl = "/Attendance";
+            public const string ScanBarcode = BaseUrl + "/Scan";
+            public const string CloseSession = BaseUrl + "/Sessions/{SessionId}/Close";
+        }
     }
 }

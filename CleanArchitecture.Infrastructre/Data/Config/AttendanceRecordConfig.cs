@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Core.Entites;
+﻿using CleanArchitecture.Core.Entites.AttendanceRecord;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 namespace CleanArchitecture.Infrastructre.Data.Config

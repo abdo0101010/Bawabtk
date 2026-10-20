@@ -1,4 +1,7 @@
 ﻿using CleanArchitecture.Core.Entites;
+using CleanArchitecture.Core.Entites.AttendanceRecord;
+using CleanArchitecture.Core.Entites.Enrollment;
+using CleanArchitecture.Core.Entites.OfflineSession;
 using CleanArchitecture.Core.Entites.ParentsProfile;
 using CleanArchitecture.Core.Entites.Student;
 using CleanArchitecture.Core.Entites.Users;

@@ -12,6 +12,7 @@ namespace CleanArchitecture.Service
         {
             services.AddScoped(typeof(BawabtkFactory<,>));
             services.AddScoped(typeof(BawabtkAuthFactory<,>));
+            services.AddScoped(typeof(AttendanceFactory<,>));
         }
     }
 }

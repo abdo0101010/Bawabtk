@@ -16,8 +16,8 @@ namespace CleanArchitecture.Core.Entites.Student
         // Relations
         public User User { get; set; } = null!;
         public ParentProfile Parent { get; set; } = null!;
-        public List<Enrollment> Enrollments { get; set; } = new();
-        public List<AttendanceRecord> AttendanceRecords { get; set; } = new();
+        public List<Core.Entites.Enrollment. Enrollment> Enrollments { get; set; } = new();
+        public List<Core.Entites.AttendanceRecord. AttendanceRecord> AttendanceRecords { get; set; } = new();
         public List<ExamResult> ExamResults { get; set; } = new();
         public List<AutomatedNotificationLog> NotificationLogs { get; set; } = new();
 
