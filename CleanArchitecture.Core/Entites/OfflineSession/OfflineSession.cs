@@ -1,8 +1,7 @@
-﻿
-using CleanArchitecture.Core.Entites.Users;
+﻿using CleanArchitecture.Core.Entites.Users;
 using static CleanArchitecture.Core.Entites.Enums;
 
-namespace CleanArchitecture.Core.Entites
+namespace CleanArchitecture.Core.Entites.OfflineSession
 {
     public class OfflineSession:BaseEntity
     {
@@ -21,7 +20,7 @@ namespace CleanArchitecture.Core.Entites
         // Relations
         public Course Course { get; set; } = null!;
         public User? ClosedByUser { get; set; }
-        public List<AttendanceRecord> AttendanceRecords { get; set; } = new();
+        public List<Core.Entites.AttendanceRecord.AttendanceRecord> AttendanceRecords { get; set; } = new();
 
         public OfflineSession() { } // ef core ctor
 

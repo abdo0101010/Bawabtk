@@ -1,5 +1,4 @@
-﻿
-using CleanArchitecture.Core.Entites.Users;
+﻿using CleanArchitecture.Core.Entites.Users;
 using static CleanArchitecture.Core.Entites.Enums;
 
 namespace CleanArchitecture.Core.Entites
@@ -19,8 +18,8 @@ namespace CleanArchitecture.Core.Entites
         // Relations
         public User Teacher { get; set; } = null!;
         public List<CourseModule> Modules { get; set; } = new();
-        public List<Enrollment> Enrollments { get; set; } = new();
-        public List<OfflineSession> OfflineSessions { get; set; } = new();
+        public List<Core.Entites.Enrollment.Enrollment> Enrollments { get; set; } = new();
+        public List<Core.Entites.OfflineSession.OfflineSession> OfflineSessions { get; set; } = new();
         public List<Exam> Exams { get; set; } = new();
 
         public Course() { } // ef core ctor
