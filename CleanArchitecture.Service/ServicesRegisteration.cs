@@ -11,6 +11,7 @@ namespace CleanArchitecture.Service
         public static void AddServicesRegistrations(this IServiceCollection services)
         {
             services.AddScoped(typeof(BawabtkFactory<,>));
+            services.AddScoped(typeof(BawabtkAuthFactory<,>));
         }
     }
 }

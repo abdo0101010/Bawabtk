@@ -15,9 +15,9 @@ using static CleanArchitecture.Core.Entites.Enums;
 
 namespace CleanArchitecture.Service.Services.Student
 {
-    public class StudentService<TRequest, TResponse>(IRepository<User> userrepo,IRepository<StudentProfile>stdrepo,IRepository<ParentProfile>parentrepo) : IGenericServices<TRequest, TResponse>
+    public class StudentService<TRequest, TResponse>(IRepository<Core.Entites.Users.User> userrepo,IRepository<StudentProfile>stdrepo,IRepository<ParentProfile>parentrepo) : IGenericServices<TRequest, TResponse>
     {
-        private readonly IRepository<User> _userrepo = userrepo;
+        private readonly IRepository<Core.Entites.Users.User> _userrepo = userrepo;
         private readonly IRepository<StudentProfile> _stdrepo = stdrepo;
         private readonly IRepository<ParentProfile> _parentrepo = parentrepo;
 
@@ -38,7 +38,7 @@ namespace CleanArchitecture.Service.Services.Student
             var specparent = new ReadByPhoneNumberSpecification(oContract.ParentWhatsAppNumber);
             var parentnumberexist = await _parentrepo.FirstOrDefaultAsync(specparent);
 
-            var NewUser = new User(
+            var NewUser = new Core.Entites.Users.User(
                 oContract.StudentFullName,
                 oContract.StudentPhoneNumber,
                 BCrypt.Net.BCrypt.HashPassword(oContract.Password),
@@ -52,7 +52,7 @@ namespace CleanArchitecture.Service.Services.Student
 
             if (parentnumberexist == null)
             {
-                var parentUser = new User(
+                var parentUser = new Core.Entites.Users.User(
                     fullName: oContract.ParentFullName,
                     phoneNumber: oContract.ParentWhatsAppNumber,
                     passwordHash: BCrypt.Net.BCrypt.HashPassword(oContract.ParentWhatsAppNumber),

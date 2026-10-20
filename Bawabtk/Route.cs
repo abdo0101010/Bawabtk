@@ -22,5 +22,10 @@
             public const string UpdateStudentParentId = ParentRoutes.BaseUrl + ReadById;
             public const string ReadStudentByParentId = ParentRoutes.ReadById + "/{StudentId}";
         }
+        public static class userRoutes
+        {
+            public const string BaseUrl = "/User";
+            public const string Login = BaseUrl+"/Login";
+        }
     }
 }

@@ -4,6 +4,7 @@ using CleanArchitecture.Core.Entites.Users;
 using CleanArchitecture.Core.Interfaces;
 using CleanArchitecture.Service.Services.Parent;
 using CleanArchitecture.Service.Services.Student;
+using CleanArchitecture.Service.Services.User;
 using CleanArchitecture.Shared.Contract.Student;
 using huzcodes.Persistence.Interfaces.Repositories;
 using System;
@@ -25,6 +26,7 @@ namespace CleanArchitecture.Service.Factories
                     return new StudentService<TRequest, TResponse>(_userrepository, _stdrepository, _parentrepository);
                 case (nameof(ParentProfile)):
                     return new ParentService<TRequest, TResponse>(_userrepository, _stdrepository, _parentrepository);
+               
                 default:
                     throw new ArgumentException($"Invalid service key: {key}");
             }

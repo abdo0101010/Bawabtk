@@ -218,3 +218,4 @@ C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\refint\Bawabtk.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.genruntimeconfig.cache
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\ref\Bawabtk.dll
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
