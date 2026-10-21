@@ -1,4 +1,5 @@
-﻿using CleanArchitecture.Core.Entites.ParentsProfile;
+﻿using CleanArchitecture.Core.Entites.Courses;
+using CleanArchitecture.Core.Entites.ParentsProfile;
 using CleanArchitecture.Core.Entites.Student;
 
 namespace CleanArchitecture.Core.Entites.Users

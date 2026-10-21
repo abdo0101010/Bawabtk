@@ -1,7 +1,7 @@
 ﻿using CleanArchitecture.Core.Entites.Users;
 using static CleanArchitecture.Core.Entites.Enums;
 
-namespace CleanArchitecture.Core.Entites
+namespace CleanArchitecture.Core.Entites.Courses
 {
     public class Course:BaseEntity
     {
@@ -18,13 +18,13 @@ namespace CleanArchitecture.Core.Entites
         // Relations
         public User Teacher { get; set; } = null!;
         public List<CourseModule> Modules { get; set; } = new();
-        public List<Core.Entites.Enrollment.Enrollment> Enrollments { get; set; } = new();
-        public List<Core.Entites.OfflineSession.OfflineSession> OfflineSessions { get; set; } = new();
+        public List<Enrollment.Enrollment> Enrollments { get; set; } = new();
+        public List<OfflineSession.OfflineSession> OfflineSessions { get; set; } = new();
         public List<Exam> Exams { get; set; } = new();
 
         public Course() { } // ef core ctor
 
-        public Course(int teacherId,
+        public Course(
                       Guid teacherUserGuid,
                       string title,
                       CourseType courseType,
@@ -34,7 +34,6 @@ namespace CleanArchitecture.Core.Entites
                       string? thumbnailUrl = null)
         {
             _CourseId = Guid.NewGuid();
-            TeacherId = teacherId;
             Title = title;
             CourseType = courseType;
             Price = price;
@@ -56,6 +55,10 @@ namespace CleanArchitecture.Core.Entites
             Description = string.IsNullOrEmpty(description) ? this.Description : description;
             Price = price == 0 ? this.Price : price;
             IsPublished = isPublished;
+        }
+        public void SetTeacher(User teacher)
+        {
+            Teacher = teacher;
         }
     }
 }

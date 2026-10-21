@@ -25,6 +25,7 @@ C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\huzcodes.Persisten
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\Microsoft.Build.Framework.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -189,9 +190,9 @@ C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Infrastructre.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Service.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Shared.dll
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Core.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Infrastructre.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Service.pdb
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Core.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Shared.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.csproj.AssemblyReference.cache
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\rpswa.dswa.cache.json
@@ -218,4 +219,3 @@ C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\refint\Bawabtk.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.genruntimeconfig.cache
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\ref\Bawabtk.dll
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll

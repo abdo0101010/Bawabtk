@@ -1,5 +1,7 @@
 ﻿
 
+using CleanArchitecture.Core.Entites.Courses;
+
 namespace CleanArchitecture.Core.Entites
 {
     public class Exam:BaseEntity
