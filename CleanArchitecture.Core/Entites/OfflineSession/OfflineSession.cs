@@ -1,4 +1,5 @@
-﻿using CleanArchitecture.Core.Entites.Users;
+﻿using CleanArchitecture.Core.Entites.Courses;
+using CleanArchitecture.Core.Entites.Users;
 using static CleanArchitecture.Core.Entites.Enums;
 
 namespace CleanArchitecture.Core.Entites.OfflineSession

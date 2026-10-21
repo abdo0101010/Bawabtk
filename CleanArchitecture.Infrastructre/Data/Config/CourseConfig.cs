@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Core.Entites;
+﻿using CleanArchitecture.Core.Entites.Courses;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
