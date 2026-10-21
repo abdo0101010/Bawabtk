@@ -24,7 +24,7 @@ namespace CleanArchitecture.Core.Entites.Courses
 
         public Course() { } // ef core ctor
 
-        public Course(int teacherId,
+        public Course(
                       Guid teacherUserGuid,
                       string title,
                       CourseType courseType,
@@ -34,7 +34,6 @@ namespace CleanArchitecture.Core.Entites.Courses
                       string? thumbnailUrl = null)
         {
             _CourseId = Guid.NewGuid();
-            TeacherId = teacherId;
             Title = title;
             CourseType = courseType;
             Price = price;
@@ -56,6 +55,10 @@ namespace CleanArchitecture.Core.Entites.Courses
             Description = string.IsNullOrEmpty(description) ? this.Description : description;
             Price = price == 0 ? this.Price : price;
             IsPublished = isPublished;
+        }
+        public void SetTeacher(User teacher)
+        {
+            Teacher = teacher;
         }
     }
 }

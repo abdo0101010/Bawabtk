@@ -33,5 +33,15 @@
             public const string ScanBarcode = BaseUrl + "/Scan";
             public const string CloseSession = BaseUrl + "/Sessions/{SessionId}/Close";
         }
+        public static class CourseRoutes
+        {
+            public const string BaseUrl = "/Course";
+            public const string Delete = BaseUrl + "/{CourseId}";
+            public const string ReadById = BaseUrl + "/{CourseId}";
+            public const string Update = BaseUrl + "/{CourseId}";
+            public const string Create = BaseUrl + "/Create";
+        }
+
+
     }
 }

@@ -4,6 +4,8 @@ namespace CleanArchitecture.Shared.Contract.CourseImplemention
 {
     public class CourseContract
     {
+        public Guid _CourseId { get; set; }
+
         public string Title { get; set; } = string.Empty;
         public string? Description { get; set; }
         public string? ThumbnailUrl { get; set; }
