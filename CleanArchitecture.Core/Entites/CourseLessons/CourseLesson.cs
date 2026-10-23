@@ -1,5 +1,6 @@
-﻿
-namespace CleanArchitecture.Core.Entites
+﻿using CleanArchitecture.Core.Entites.CourseModules;
+
+namespace CleanArchitecture.Core.Entites.CourseLessons
 {
     public class CourseLesson:BaseEntity
     {

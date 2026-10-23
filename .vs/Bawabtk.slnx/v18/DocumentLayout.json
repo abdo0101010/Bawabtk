@@ -3,6 +3,66 @@
   "WorkspaceRootPath": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6BFF5FC2-E33D-5705-3D42-B9B3992D4449}|CleanArchitecture.Service\\CleanArchitecture.Service.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.service\\services\\coursemodule\\coursemoduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFF5FC2-E33D-5705-3D42-B9B3992D4449}|CleanArchitecture.Service\\CleanArchitecture.Service.csproj|solutionrelative:cleanarchitecture.service\\services\\coursemodule\\coursemoduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\coursemodules\\specification\\readsinglebycourseid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\coursemodules\\specification\\readsinglebycourseid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\courses\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\courses\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\coursemodules\\coursemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\coursemodules\\coursemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\coursemodules\\specification\\readspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\coursemodules\\specification\\readspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFF5FC2-E33D-5705-3D42-B9B3992D4449}|CleanArchitecture.Service\\CleanArchitecture.Service.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.service\\services\\courselesson\\courselessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFF5FC2-E33D-5705-3D42-B9B3992D4449}|CleanArchitecture.Service\\CleanArchitecture.Service.csproj|solutionrelative:cleanarchitecture.service\\services\\courselesson\\courselessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEF1BBB-9C09-A88F-006B-85F24E667062}|CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.shared\\contract\\coursemoduleimplemention\\coursemoduleoperationcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEF1BBB-9C09-A88F-006B-85F24E667062}|CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj|solutionrelative:cleanarchitecture.shared\\contract\\coursemoduleimplemention\\coursemoduleoperationcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEF1BBB-9C09-A88F-006B-85F24E667062}|CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.shared\\contract\\coursemoduleimplemention\\coursemodulecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEF1BBB-9C09-A88F-006B-85F24E667062}|CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj|solutionrelative:cleanarchitecture.shared\\contract\\coursemoduleimplemention\\coursemodulecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEF1BBB-9C09-A88F-006B-85F24E667062}|CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.shared\\contract\\courselessonimplemention\\courselessonoperationcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEF1BBB-9C09-A88F-006B-85F24E667062}|CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj|solutionrelative:cleanarchitecture.shared\\contract\\courselessonimplemention\\courselessonoperationcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEF1BBB-9C09-A88F-006B-85F24E667062}|CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.shared\\contract\\courselessonimplemention\\courselessoncontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEF1BBB-9C09-A88F-006B-85F24E667062}|CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj|solutionrelative:cleanarchitecture.shared\\contract\\courselessonimplemention\\courselessoncontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\courselessons\\courselesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\courselessons\\courselesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\coursemodules\\specification\\readbyidspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\coursemodules\\specification\\readbyidspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\courselessons\\specification\\readspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\courselessons\\specification\\readspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\courselessons\\specification\\readbyidspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\courselessons\\specification\\readbyidspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\courses\\specification\\readbyidspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\courses\\specification\\readbyidspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4AD284B-276B-6C12-85FB-5714D5BA403A}|Bawabtk\\Bawabtk.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\bawabtk\\repr\\endpoints\\course\\delete\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4AD284B-276B-6C12-85FB-5714D5BA403A}|Bawabtk\\Bawabtk.csproj|solutionrelative:bawabtk\\repr\\endpoints\\course\\delete\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,28 +143,12 @@
       "RelativeMoniker": "D:0:0:{6BFF5FC2-E33D-5705-3D42-B9B3992D4449}|CleanArchitecture.Service\\CleanArchitecture.Service.csproj|solutionrelative:cleanarchitecture.service\\factories\\bawabtkfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\courses\\specification\\readbyidspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\courses\\specification\\readbyidspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\courses\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\courses\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F4AD284B-276B-6C12-85FB-5714D5BA403A}|Bawabtk\\Bawabtk.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\bawabtk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4AD284B-276B-6C12-85FB-5714D5BA403A}|Bawabtk\\Bawabtk.csproj|solutionrelative:bawabtk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\courses\\specification\\readspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\courses\\specification\\readspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\courselesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\courselesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.core\\entites\\coursemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BDC978A-CAEC-C312-84C8-00181E312A1F}|CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:cleanarchitecture.core\\entites\\coursemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BFF5FC2-E33D-5705-3D42-B9B3992D4449}|CleanArchitecture.Service\\CleanArchitecture.Service.csproj|c:\\users\\abdoa\\source\\repos\\bawabtk\\cleanarchitecture.service\\services\\student\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -354,293 +398,225 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Course.Request.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.Request.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.Request.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.Request.cs*",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.Request.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ReadSingleByCourseId.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadSingleByCourseId.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadSingleByCourseId.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadSingleByCourseId.cs",
+              "RelativeToolTip": "CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadSingleByCourseId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T20:30:28.228Z",
+              "WhenOpened": "2026-10-23T13:37:21.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.cs*",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Title": "CourseModuleService.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\CourseModule\\CourseModuleService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Service\\Services\\CourseModule\\CourseModuleService.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\CourseModule\\CourseModuleService.cs",
+              "RelativeToolTip": "CleanArchitecture.Service\\Services\\CourseModule\\CourseModuleService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAJgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T20:29:57.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Course.Response.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Response.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Response.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Response.cs*",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Response.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T20:22:44.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Course.Request.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Request.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Request.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Request.cs*",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Request.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T20:22:30.114Z",
+              "WhenOpened": "2026-10-23T12:38:29.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.cs*",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Title": "CourseLessonService.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\CourseLesson\\CourseLessonService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Service\\Services\\CourseLesson\\CourseLessonService.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\CourseLesson\\CourseLessonService.cs",
+              "RelativeToolTip": "CleanArchitecture.Service\\Services\\CourseLesson\\CourseLessonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T20:22:06.286Z",
+              "WhenOpened": "2026-10-23T12:38:15.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourseModuleOPerationContract.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseModuleImplemention\\CourseModuleOPerationContract.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\CourseModuleImplemention\\CourseModuleOPerationContract.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseModuleImplemention\\CourseModuleOPerationContract.cs",
+              "RelativeToolTip": "CleanArchitecture.Shared\\Contract\\CourseModuleImplemention\\CourseModuleOPerationContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:35:25.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseModule.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseModules\\CourseModule.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\CourseModules\\CourseModule.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseModules\\CourseModule.cs",
+              "RelativeToolTip": "CleanArchitecture.Core\\Entites\\CourseModules\\CourseModule.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T16:00:42.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.cs*",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBEAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T20:12:17.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.cs",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T17:24:40.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Course.ReadByIdResponse.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdResponse.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdResponse.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdResponse.cs*",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdResponse.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T20:12:35.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CourseContract.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseContract.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseContract.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseContract.cs",
-              "RelativeToolTip": "CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseContract.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T16:03:35.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.cs",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T16:59:19.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Course.ReadByIdRequest.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdRequest.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdRequest.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdRequest.cs*",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdRequest.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T20:14:09.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\Course\\CourseService.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Service\\Services\\Course\\CourseService.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\Course\\CourseService.cs",
-              "RelativeToolTip": "CleanArchitecture.Service\\Services\\Course\\CourseService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAQwEIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T16:05:36.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Course.ReadResponse.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.ReadResponse.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.ReadResponse.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.ReadResponse.cs",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.ReadResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T17:25:02.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Course.CourseCreateRequest.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateRequest.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateRequest.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateRequest.cs",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T17:05:01.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Course.CourseCreateResponse.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateResponse.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateResponse.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateResponse.cs",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T17:05:22.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CourseOperationContract.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseOperationContract.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseOperationContract.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseOperationContract.cs",
-              "RelativeToolTip": "CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseOperationContract.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T16:03:12.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Route.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\Route.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\Route.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\Route.cs",
-              "RelativeToolTip": "Bawabtk\\Route.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAADwvygAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T15:59:54.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Parent.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.cs",
-              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBMAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T18:15:32.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Courses\\Course.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\Courses\\Course.cs",
               "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Courses\\Course.cs",
               "RelativeToolTip": "CleanArchitecture.Core\\Entites\\Courses\\Course.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwBoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwCkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T15:29:03.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReadSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadSpecification.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadSpecification.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadSpecification.cs",
+              "RelativeToolTip": "CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:24:11.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseModuleContract.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseModuleImplemention\\CourseModuleContract.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\CourseModuleImplemention\\CourseModuleContract.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseModuleImplemention\\CourseModuleContract.cs",
+              "RelativeToolTip": "CleanArchitecture.Shared\\Contract\\CourseModuleImplemention\\CourseModuleContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:35:33.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CourseLessonContract.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseLessonImplemention\\CourseLessonContract.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\CourseLessonImplemention\\CourseLessonContract.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseLessonImplemention\\CourseLessonContract.cs",
+              "RelativeToolTip": "CleanArchitecture.Shared\\Contract\\CourseLessonImplemention\\CourseLessonContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:32:05.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseLessonOperationContract.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseLessonImplemention\\CourseLessonOperationContract.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\CourseLessonImplemention\\CourseLessonOperationContract.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseLessonImplemention\\CourseLessonOperationContract.cs",
+              "RelativeToolTip": "CleanArchitecture.Shared\\Contract\\CourseLessonImplemention\\CourseLessonOperationContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:31:41.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReadByIdSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadByIdSpecification.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadByIdSpecification.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadByIdSpecification.cs",
+              "RelativeToolTip": "CleanArchitecture.Core\\Entites\\CourseModules\\Specification\\ReadByIdSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:23:54.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourseLesson.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseLessons\\CourseLesson.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\CourseLessons\\CourseLesson.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseLessons\\CourseLesson.cs",
+              "RelativeToolTip": "CleanArchitecture.Core\\Entites\\CourseLessons\\CourseLesson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T15:29:10.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReadSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseLessons\\Specification\\ReadSpecification.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\CourseLessons\\Specification\\ReadSpecification.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseLessons\\Specification\\ReadSpecification.cs",
+              "RelativeToolTip": "CleanArchitecture.Core\\Entites\\CourseLessons\\Specification\\ReadSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:24:05.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReadByIdSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseLessons\\Specification\\ReadByIdSpecification.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\CourseLessons\\Specification\\ReadByIdSpecification.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseLessons\\Specification\\ReadByIdSpecification.cs",
+              "RelativeToolTip": "CleanArchitecture.Core\\Entites\\CourseLessons\\Specification\\ReadByIdSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:23:49.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "BawabtkFactory.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Factories\\BawabtkFactory.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Service\\Factories\\BawabtkFactory.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Factories\\BawabtkFactory.cs",
-              "RelativeToolTip": "CleanArchitecture.Service\\Factories\\BawabtkFactory.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA0wCEAAABgAAAAAAAAAA==",
+              "Title": "Course.Request.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Request.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Request.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Request.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Request.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T18:29:54.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ServicesRegisteration.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\ServicesRegisteration.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Service\\ServicesRegisteration.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\ServicesRegisteration.cs",
-              "RelativeToolTip": "CleanArchitecture.Service\\ServicesRegisteration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T00:22:20.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\Program.cs",
-              "RelativeDocumentMoniker": "Bawabtk\\Program.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\Program.cs",
-              "RelativeToolTip": "Bawabtk\\Program.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAQwFwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T23:11:57.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T20:22:30.114Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T20:22:06.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBEAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T20:12:17.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ReadByIdSpecification.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Courses\\Specification\\ReadByIdSpecification.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\Courses\\Specification\\ReadByIdSpecification.cs",
@@ -653,7 +629,223 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T20:29:57.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Course.Response.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Response.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Response.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Response.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Update\\Course.Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T20:22:44.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Course.Request.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.Request.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.Request.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.Request.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Delete\\Course.Request.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T20:30:28.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:24:40.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Course.ReadByIdResponse.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdResponse.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdResponse.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdResponse.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T20:12:35.763Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "CourseContract.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseContract.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseContract.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseContract.cs",
+              "RelativeToolTip": "CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseContract.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T16:03:35.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T16:59:19.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Course.ReadByIdRequest.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdRequest.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdRequest.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdRequest.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\ById\\Course.ReadByIdRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T20:14:09.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\Course\\CourseService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Service\\Services\\Course\\CourseService.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\Course\\CourseService.cs",
+              "RelativeToolTip": "CleanArchitecture.Service\\Services\\Course\\CourseService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwEIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T16:05:36.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Course.ReadResponse.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.ReadResponse.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.ReadResponse.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.ReadResponse.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Read\\Course.ReadResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:25:02.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Course.CourseCreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateRequest.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateRequest.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateRequest.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:05:01.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Course.CourseCreateResponse.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateResponse.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateResponse.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateResponse.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Course\\Create\\Course.CourseCreateResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:05:22.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CourseOperationContract.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseOperationContract.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseOperationContract.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseOperationContract.cs",
+              "RelativeToolTip": "CleanArchitecture.Shared\\Contract\\CourseImplemention\\CourseOperationContract.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T16:03:12.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Route.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\Route.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\Route.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\Route.cs",
+              "RelativeToolTip": "Bawabtk\\Route.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvygAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T15:59:54.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Parent.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.cs",
+              "RelativeToolTip": "Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T18:15:32.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BawabtkFactory.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Factories\\BawabtkFactory.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Service\\Factories\\BawabtkFactory.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Factories\\BawabtkFactory.cs",
+              "RelativeToolTip": "CleanArchitecture.Service\\Factories\\BawabtkFactory.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA0wCEAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T18:29:54.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ServicesRegisteration.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\ServicesRegisteration.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Service\\ServicesRegisteration.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\ServicesRegisteration.cs",
+              "RelativeToolTip": "CleanArchitecture.Service\\ServicesRegisteration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T00:22:20.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\Program.cs",
+              "RelativeDocumentMoniker": "Bawabtk\\Program.cs",
+              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\Program.cs",
+              "RelativeToolTip": "Bawabtk\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwFwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T23:11:57.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "ReadSpecification.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Courses\\Specification\\ReadSpecification.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\Courses\\Specification\\ReadSpecification.cs",
@@ -661,25 +853,11 @@
               "RelativeToolTip": "CleanArchitecture.Core\\Entites\\Courses\\Specification\\ReadSpecification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T16:01:23.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T16:01:23.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CourseModule.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseModule.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\CourseModule.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseModule.cs",
-              "RelativeToolTip": "CleanArchitecture.Core\\Entites\\CourseModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T16:00:42.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 41,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Students\\ScanBarCode\\Student.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Students\\ScanBarCode\\Student.cs",
@@ -691,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 37,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\Student\\StudentService.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Service\\Services\\Student\\StudentService.cs",
@@ -699,25 +877,11 @@
               "RelativeToolTip": "CleanArchitecture.Service\\Services\\Student\\StudentService.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAlwCMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T14:35:29.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T14:35:29.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CourseLesson.cs",
-              "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseLesson.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\CourseLesson.cs",
-              "ToolTip": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\CourseLesson.cs",
-              "RelativeToolTip": "CleanArchitecture.Core\\Entites\\CourseLesson.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T15:29:10.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 38,
               "Title": "AttendanceService.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\Attendance\\AttendanceService.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Service\\Services\\Attendance\\AttendanceService.cs",
@@ -729,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 40,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\User\\CloseSession\\User.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\User\\CloseSession\\User.cs",
@@ -741,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 39,
               "Title": "User.CloseSessionRequest.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\User\\CloseSession\\User.CloseSessionRequest.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\User\\CloseSession\\User.CloseSessionRequest.cs",
@@ -753,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 42,
               "Title": "User.CloseSessionResponse.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\User\\CloseSession\\User.CloseSessionResponse.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\User\\CloseSession\\User.CloseSessionResponse.cs",
@@ -765,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 43,
               "Title": "IAttendanceService.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Interfaces\\IAttendanceService.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Interfaces\\IAttendanceService.cs",
@@ -777,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 44,
               "Title": "Student.ScanBarcodeResponse.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Students\\ScanBarCode\\Student.ScanBarcodeResponse.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Students\\ScanBarCode\\Student.ScanBarcodeResponse.cs",
@@ -789,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 46,
               "Title": "Student.ScanBarcodeRequest.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Students\\ScanBarCode\\Student.ScanBarcodeRequest.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Students\\ScanBarCode\\Student.ScanBarcodeRequest.cs",
@@ -801,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 47,
               "Title": "AttendanceFactory.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Factories\\AttendanceFactory.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Service\\Factories\\AttendanceFactory.cs",
@@ -813,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 45,
               "Title": "AttendanceContract.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\AttendanceImplemention\\AttendanceContract.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\AttendanceImplemention\\AttendanceContract.cs",
@@ -825,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 50,
               "Title": "StudentProfile.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Student\\StudentProfile.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\Student\\StudentProfile.cs",
@@ -837,7 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 49,
               "Title": "Userservice.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\Users\\Userservice.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Service\\Services\\Users\\Userservice.cs",
@@ -849,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 48,
               "Title": "BawabtkAuthFactory.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Factories\\BawabtkAuthFactory.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Service\\Factories\\BawabtkAuthFactory.cs",
@@ -861,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 51,
               "Title": "ReadSessionAttendanceSpecification.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\AttendanceRecord\\Specification\\ReadSessionAttendanceSpecification.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\AttendanceRecord\\Specification\\ReadSessionAttendanceSpecification.cs",
@@ -873,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 53,
               "Title": "ReadActiveCourseByIdEnrollmentsSpecification.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Enrollment\\Specefication\\ReadActiveCourseByIdEnrollmentsSpecification.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\Enrollment\\Specefication\\ReadActiveCourseByIdEnrollmentsSpecification.cs",
@@ -885,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 54,
               "Title": "OfflineSession.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\OfflineSession\\OfflineSession.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\OfflineSession\\OfflineSession.cs",
@@ -893,12 +1057,11 @@
               "RelativeToolTip": "CleanArchitecture.Core\\Entites\\OfflineSession\\OfflineSession.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA7wBYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T15:30:10.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T15:30:10.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 55,
               "Title": "AttendanceRecord.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\AttendanceRecord\\AttendanceRecord.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\AttendanceRecord\\AttendanceRecord.cs",
@@ -910,7 +1073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 52,
               "Title": "ReadAbsentStudentsSpecification.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Enrollment\\Specefication\\ReadAbsentStudentsSpecification.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\Enrollment\\Specefication\\ReadAbsentStudentsSpecification.cs",
@@ -922,7 +1085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 56,
               "Title": "CheckDuplicateAttendanceSpecification.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\AttendanceRecord\\Specification\\CheckDuplicateAttendanceSpecification.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\AttendanceRecord\\Specification\\CheckDuplicateAttendanceSpecification.cs",
@@ -934,7 +1097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 57,
               "Title": "ReadByBarcodeSpecification.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Student\\Specefication\\ReadByBarcodeSpecification.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\Student\\Specefication\\ReadByBarcodeSpecification.cs",
@@ -946,7 +1109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 58,
               "Title": "AttendanceOperationContract.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\AttendanceImplemention\\AttendanceOperationContract.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\AttendanceImplemention\\AttendanceOperationContract.cs",
@@ -958,7 +1121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 60,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Enrollment\\Enrollment.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\Enrollment\\Enrollment.cs",
@@ -966,12 +1129,11 @@
               "RelativeToolTip": "CleanArchitecture.Core\\Entites\\Enrollment\\Enrollment.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T15:36:28.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T15:36:28.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 59,
               "Title": "ReadByIdSpecification.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\OfflineSession\\Specefication\\ReadByIdSpecification.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\OfflineSession\\Specefication\\ReadByIdSpecification.cs",
@@ -983,7 +1145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 62,
               "Title": "User.LoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\User\\Login\\User.LoginResponse.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\User\\Login\\User.LoginResponse.cs",
@@ -995,7 +1157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 61,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\User\\Login\\User.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\User\\Login\\User.cs",
@@ -1007,7 +1169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 63,
               "Title": "UserOperationContract.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\UserImplemention\\UserOperationContract.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\UserImplemention\\UserOperationContract.cs",
@@ -1019,7 +1181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 64,
               "Title": "UserContract.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\UserImplemention\\UserContract.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\UserImplemention\\UserContract.cs",
@@ -1031,7 +1193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 65,
               "Title": "User.LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\User\\Login\\User.LoginRequest.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\User\\Login\\User.LoginRequest.cs",
@@ -1043,7 +1205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 66,
               "Title": "Bawabtk.csproj",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\Bawabtk.csproj",
               "RelativeDocumentMoniker": "Bawabtk\\Bawabtk.csproj",
@@ -1055,7 +1217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 68,
               "Title": "ReadByEmailSpecifition.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Users\\Specefication\\ReadByEmailSpecifition.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\Users\\Specefication\\ReadByEmailSpecifition.cs",
@@ -1067,7 +1229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 67,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Interfaces\\IUserService.cs",
@@ -1079,7 +1241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 70,
               "Title": "Parent.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Update\\Parent.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Update\\Parent.cs",
@@ -1091,7 +1253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 75,
               "Title": "ParentContract.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\ParentImplemention\\ParentContract.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\ParentImplemention\\ParentContract.cs",
@@ -1103,7 +1265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 72,
               "Title": "Parent.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Read\\Parent.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Read\\Parent.cs",
@@ -1115,7 +1277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 69,
               "Title": "ParentService.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Service\\Services\\Parent\\ParentService.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Service\\Services\\Parent\\ParentService.cs",
@@ -1127,7 +1289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 73,
               "Title": "Parent.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Read\\ById\\Parent.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Read\\ById\\Parent.cs",
@@ -1139,7 +1301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 71,
               "Title": "Parent.ParentUpdateRequest.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Update\\Parent.ParentUpdateRequest.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Update\\Parent.ParentUpdateRequest.cs",
@@ -1151,7 +1313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 74,
               "Title": "Parent.ParentUpdateResponse.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Update\\Parent.ParentUpdateResponse.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Update\\Parent.ParentUpdateResponse.cs",
@@ -1163,7 +1325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 78,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Students\\Create\\Student.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Students\\Create\\Student.cs",
@@ -1175,7 +1337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 79,
               "Title": "Parent.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Delete\\Parent.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Delete\\Parent.cs",
@@ -1187,7 +1349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 76,
               "Title": "ParentOperationContract.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\ParentImplemention\\ParentOperationContract.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\ParentImplemention\\ParentOperationContract.cs",
@@ -1199,7 +1361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 81,
               "Title": "Parent.ParentReadByIdRequest.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Read\\ById\\Parent.ParentReadByIdRequest.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Read\\ById\\Parent.ParentReadByIdRequest.cs",
@@ -1211,7 +1373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 77,
               "Title": "ReadByIdSpecefication.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\ParentsProfile\\Specefication\\ReadByIdSpecefication.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\ParentsProfile\\Specefication\\ReadByIdSpecefication.cs",
@@ -1223,7 +1385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 80,
               "Title": "Parent.ParentReadByIdResponse.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Read\\ById\\Parent.ParentReadByIdResponse.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Read\\ById\\Parent.ParentReadByIdResponse.cs",
@@ -1235,7 +1397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 82,
               "Title": "Parent.ParentReadResponse.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Read\\Parent.ParentReadResponse.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Read\\Parent.ParentReadResponse.cs",
@@ -1247,7 +1409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 83,
               "Title": "Parent.ParentDeleteRequest.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Delete\\Parent.ParentDeleteRequest.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Delete\\Parent.ParentDeleteRequest.cs",
@@ -1259,7 +1421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 84,
               "Title": "Parent.CreateResponse.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.CreateResponse.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.CreateResponse.cs",
@@ -1271,7 +1433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 85,
               "Title": "Parent.CreateRequest.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.CreateRequest.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Parents\\Create\\Parent.CreateRequest.cs",
@@ -1283,7 +1445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 86,
               "Title": "StudentContract.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\StudentImplemention\\StudentContract.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\StudentImplemention\\StudentContract.cs",
@@ -1295,7 +1457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 87,
               "Title": "ReadSpecefication.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\ParentsProfile\\Specefication\\ReadSpecefication.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\ParentsProfile\\Specefication\\ReadSpecefication.cs",
@@ -1307,7 +1469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 88,
               "Title": "StudentOperationContract.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Shared\\Contract\\StudentImplemention\\StudentOperationContract.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Shared\\Contract\\StudentImplemention\\StudentOperationContract.cs",
@@ -1319,7 +1481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 89,
               "Title": "IGenericServices.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Interfaces\\IGenericServices.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Interfaces\\IGenericServices.cs",
@@ -1331,7 +1493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 92,
               "Title": "Student.ByParentIdResponse.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Students\\Read\\ByParentId\\Student.ByParentIdResponse.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Students\\Read\\ByParentId\\Student.ByParentIdResponse.cs",
@@ -1343,7 +1505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 93,
               "Title": "Student.ByParentIdRequest.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Students\\Read\\ByParentId\\Student.ByParentIdRequest.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Students\\Read\\ByParentId\\Student.ByParentIdRequest.cs",
@@ -1355,7 +1517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 90,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Students\\Read\\ByParentId\\Student.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Students\\Read\\ByParentId\\Student.cs",
@@ -1367,7 +1529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 94,
               "Title": "Student.UpdateParentByIdRequest.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Students\\Update\\ParentById\\Student.UpdateParentByIdRequest.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Students\\Update\\ParentById\\Student.UpdateParentByIdRequest.cs",
@@ -1379,7 +1541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 91,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\Bawabtk\\REPR\\EndPoints\\Students\\Update\\ParentById\\Student.cs",
               "RelativeDocumentMoniker": "Bawabtk\\REPR\\EndPoints\\Students\\Update\\ParentById\\Student.cs",
@@ -1391,7 +1553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 95,
               "Title": "ReadSingleByParentId.cs",
               "DocumentMoniker": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Core\\Entites\\Student\\Specefication\\ReadSingleByParentId.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Core\\Entites\\Student\\Specefication\\ReadSingleByParentId.cs",
