@@ -1,7 +1,8 @@
-﻿
+﻿using CleanArchitecture.Core.Entites.CourseLessons;
 using CleanArchitecture.Core.Entites.Courses;
+using MongoDB.Bson;
 
-namespace CleanArchitecture.Core.Entites
+namespace CleanArchitecture.Core.Entites.CourseModules
 {
     public class CourseModule:BaseEntity
     {
@@ -16,10 +17,9 @@ namespace CleanArchitecture.Core.Entites
 
         public CourseModule() { } // ef core ctor
 
-        public CourseModule(int courseId, string title, int sortOrder, Guid createdBy)
+        public CourseModule( string title, int sortOrder, Guid createdBy)
         {
             _ModuleId = Guid.NewGuid();
-            CourseId = courseId;
             Title = title;
             SortOrder = sortOrder;
             CreatedBy = createdBy;
@@ -27,5 +27,9 @@ namespace CleanArchitecture.Core.Entites
             ModifiedBy = Guid.Empty;
             ModifiedOn = DateTimeOffset.Now;
         }
-    }
+        public void SetCourse(Course course)=> Course = course;
+        
+        public void Update( string title)=> Title = title;
+        
+    }                      
 }

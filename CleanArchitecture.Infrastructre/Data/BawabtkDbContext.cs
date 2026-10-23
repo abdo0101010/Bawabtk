@@ -1,5 +1,7 @@
 ﻿using CleanArchitecture.Core.Entites;
 using CleanArchitecture.Core.Entites.AttendanceRecord;
+using CleanArchitecture.Core.Entites.CourseLessons;
+using CleanArchitecture.Core.Entites.CourseModules;
 using CleanArchitecture.Core.Entites.Courses;
 using CleanArchitecture.Core.Entites.Enrollment;
 using CleanArchitecture.Core.Entites.OfflineSession;
