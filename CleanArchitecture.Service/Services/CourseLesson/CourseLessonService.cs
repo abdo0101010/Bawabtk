@@ -23,6 +23,7 @@ namespace CleanArchitecture.Service.Services.CourseLesson
                 throw new ResultException("Cannot Create course moudle becuase not found Module", ((int)HttpStatusCode.BadRequest));
             var oData = new Core.Entites.CourseLessons.CourseLesson(oContrct.Title,oContrct.VideoUrl,oContrct.PdfUrl,oContrct.DurationInMinutes,oContrct.SortOrder,oContrct.IsFreePreview,Guid.Empty);
             oData.SetModule(Module);
+            await _Courselessonrepo.AddAsync(oData);
             var oResult = new CourseLessonContract()
             {
                 DurationInMinutes=oData.DurationInMinutes,
@@ -65,7 +66,7 @@ namespace CleanArchitecture.Service.Services.CourseLesson
                 Title = c.Title,
                 VideoUrl = c.VideoUrl,
                 _LessonId = c._LessonId
-            }).ToList;
+            }).ToList();
             return oResult as dynamic;
         }
 
@@ -97,11 +98,11 @@ namespace CleanArchitecture.Service.Services.CourseLesson
         {
             if (id == Guid.Empty || ParentId == Guid.Empty)
                 throw new ResultException("Cannot send null id", ((int)HttpStatusCode.BadRequest));
-            var CourseModuleSpec = new Core.Entites.CourseModules.Specification. ReadByIdSpecification(id);
+            var CourseModuleSpec = new Core.Entites.CourseModules.Specification. ReadByIdSpecification(ParentId);
             var oDataCourseModule = await _CourseModulerepo.FirstOrDefaultAsync(CourseModuleSpec);
             if (oDataCourseModule == null)
                 throw new ResultException("Cannot Found course moudle becuase not found", ((int)HttpStatusCode.NotFound));
-            var LessonSpec = new Core.Entites.CourseLessons.Specification.ReadByIdSpecification(ParentId);
+            var LessonSpec = new Core.Entites.CourseLessons.Specification.ReadByIdSpecification(id);
             var oDataCourse = await _Courselessonrepo.FirstOrDefaultAsync(LessonSpec);
             if (oDataCourse == null)
                 throw new ResultException("Cannot Found Leesson becuase not found", ((int)HttpStatusCode.NotFound));
@@ -155,11 +156,11 @@ namespace CleanArchitecture.Service.Services.CourseLesson
         {
             if (contractid == Guid.Empty || ParentId == Guid.Empty)
                 throw new ResultException("Cannot send null id", ((int)HttpStatusCode.BadRequest));
-            var CourseModuleSpec = new Core.Entites.CourseModules.Specification. ReadByIdSpecification(contractid);
+            var CourseModuleSpec = new Core.Entites.CourseModules.Specification. ReadByIdSpecification(ParentId);
             var oDataCourseModule = await _CourseModulerepo.FirstOrDefaultAsync(CourseModuleSpec);
             if (oDataCourseModule == null)
                 throw new ResultException("Cannot Found course moudle becuase not found", ((int)HttpStatusCode.NotFound));
-            var LessonSpec = new Core.Entites.CourseLessons.Specification.ReadByIdSpecification(ParentId);
+            var LessonSpec = new Core.Entites.CourseLessons.Specification.ReadByIdSpecification(contractid);
             var Lesson = await _Courselessonrepo.FirstOrDefaultAsync(LessonSpec);
             if (Lesson == null)
                 throw new ResultException("Cannot Found lesson becuase not found", ((int)HttpStatusCode.NotFound));

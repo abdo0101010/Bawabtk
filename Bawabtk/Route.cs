@@ -51,7 +51,16 @@
             public const string UpdateCourseId = CourseRoutes.BaseUrl + ReadById;
             public const string ReadSingleCoursemoduleByCourseId = CourseRoutes.ReadById + "/{CourseModuleId}";
         }
-
+        public static class CourseLessoneRoutes
+        {
+            public const string BaseUrl = "/CourseLesson";
+            public const string Delete = BaseUrl + "/{CourseLessonId}";
+            public const string ReadById = BaseUrl + "/{CourseLessonId}";
+            public const string Update = BaseUrl + "/{CourseLessonId}";
+            public const string Create = BaseUrl + "/Create";
+            public const string UpdateCourseModuleId = CourseModuleRoutes.ReadById + ReadById;
+            public const string ReadSingleCourseLessonByCoursemoduleId = CourseModuleRoutes.ReadById + "/{CourseLessonId}";
+        }
 
     }
 }
