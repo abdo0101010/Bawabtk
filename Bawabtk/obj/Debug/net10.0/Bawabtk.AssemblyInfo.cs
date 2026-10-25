@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bawabtk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bcbdf14d6116c96794f3eb3c257ac960f1ee826")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e7f9a7c23456dcab5d07c55e3afe4b16beb4476")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bawabtk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bawabtk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

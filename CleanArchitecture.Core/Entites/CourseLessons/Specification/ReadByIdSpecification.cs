@@ -6,7 +6,7 @@ namespace CleanArchitecture.Core.Entites.CourseLessons.Specification
     {
         public ReadByIdSpecification(Guid CourseLessonId)
         {
-            Query.Where(c => c._LessonId == CourseLessonId);
+            Query.Where(c => c._LessonId == CourseLessonId).Include(c=>c.Module);
             
         }
     }
