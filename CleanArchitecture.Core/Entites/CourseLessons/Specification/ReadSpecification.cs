@@ -7,7 +7,7 @@ namespace CleanArchitecture.Core.Entites.CourseLessons.Specification
     {
         public ReadSpecification()
         {
-            Query.Where(c => c._LessonId != Guid.Empty);
+            Query.Where(c => c._LessonId != Guid.Empty).Include(c=>c.Module);
         }
     }
 }

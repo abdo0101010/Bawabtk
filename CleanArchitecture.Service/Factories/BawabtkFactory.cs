@@ -1,26 +1,22 @@
-﻿using CleanArchitecture.Core.Entites.CourseModules;
+﻿using CleanArchitecture.Core.Entites.CourseLessons;
+using CleanArchitecture.Core.Entites.CourseModules;
 using CleanArchitecture.Core.Entites.Courses;
 using CleanArchitecture.Core.Entites.ParentsProfile;
 using CleanArchitecture.Core.Entites.Student;
 using CleanArchitecture.Core.Entites.Users;
 using CleanArchitecture.Core.Interfaces;
 using CleanArchitecture.Service.Services.Course;
+using CleanArchitecture.Service.Services.CourseLesson;
 using CleanArchitecture.Service.Services.CourseModule;
 using CleanArchitecture.Service.Services.Parent;
 using CleanArchitecture.Service.Services.Student;
-using CleanArchitecture.Service.Services.User;
-using CleanArchitecture.Shared.Contract.Student;
 using huzcodes.Persistence.Interfaces.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace CleanArchitecture.Service.Factories
 {
-    public class BawabtkFactory<TRequest, TResponse>(IRepository<User> userrepository,IRepository<ParentProfile>parentrepository,IRepository<StudentProfile> stdrepository, IRepository<Course> Courserepo,IRepository<CourseModule> CourseModulerepo)
+    public class BawabtkFactory<TRequest, TResponse>(IRepository<User> userrepository,IRepository<ParentProfile>parentrepository,IRepository<StudentProfile> stdrepository, IRepository<Course> Courserepo,IRepository<CourseModule> CourseModulerepo, IRepository<CourseLesson> CourseLessonrepo)
     {
         private readonly IRepository<Course> _Courserepo = Courserepo;
-
+        private readonly IRepository<CourseLesson> _CourseLessonrepo = CourseLessonrepo;
         private readonly IRepository<User> _userrepository = userrepository;
         private readonly IRepository<ParentProfile> _parentrepository = parentrepository;
         private readonly IRepository<StudentProfile> _stdrepository = stdrepository;
@@ -37,6 +33,8 @@ namespace CleanArchitecture.Service.Factories
                     return new CourseService<TRequest, TResponse>(_Courserepo, _userrepository);
                 case (nameof(CourseModule)):
                     return new CourseModuleService<TRequest, TResponse>(_CourseModulerepo, _Courserepo);
+                case (nameof(CourseLesson)):
+                    return new CourseLessonService<TRequest, TResponse>(_CourseLessonrepo, _CourseModulerepo);
                 default:
                     throw new ArgumentException($"Invalid service key: {key}");
             }

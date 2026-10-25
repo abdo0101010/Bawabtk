@@ -1,8 +1,9 @@
 ﻿using CleanArchitecture.Core.Entites.CourseModules;
+using MongoDB.Bson;
 
 namespace CleanArchitecture.Core.Entites.CourseLessons
 {
-    public class CourseLesson:BaseEntity
+    public class CourseLesson : BaseEntity
     {
         public Guid _LessonId { get; set; }
         public int ModuleId { get; set; } // FK -> CourseModule.Id
@@ -18,7 +19,7 @@ namespace CleanArchitecture.Core.Entites.CourseLessons
 
         public CourseLesson() { } // ef core ctor
 
-        public CourseLesson(int moduleId,
+        public CourseLesson(
                             string title,
                             string? videoUrl,
                             string? pdfUrl,
@@ -28,7 +29,6 @@ namespace CleanArchitecture.Core.Entites.CourseLessons
                             Guid createdBy)
         {
             _LessonId = Guid.NewGuid();
-            ModuleId = moduleId;
             Title = title;
             VideoUrl = videoUrl;
             PdfUrl = pdfUrl;
@@ -40,5 +40,16 @@ namespace CleanArchitecture.Core.Entites.CourseLessons
             ModifiedBy = Guid.Empty;
             ModifiedOn = DateTimeOffset.Now;
         }
+        public void SetModule(CourseModule courseModule) => Module = courseModule;
+        public void Update(string title,  string? videoUrl,string? pdfUrl, int durationInMinutes, int sortOrder, bool isFreePreview)
+        {
+            Title = title;
+            VideoUrl = videoUrl;
+            PdfUrl = pdfUrl;
+            DurationInMinutes = durationInMinutes;
+            SortOrder = sortOrder;
+            IsFreePreview = isFreePreview;
+        }
+
     }
 }
