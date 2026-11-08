@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Core.Entites.CourseModules;
+using CleanArchitecture.Core.Entites.Exams;
 using CleanArchitecture.Core.Entites.Users;
 using static CleanArchitecture.Core.Entites.Enums;
 

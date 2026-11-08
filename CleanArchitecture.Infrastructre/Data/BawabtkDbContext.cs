@@ -4,6 +4,7 @@ using CleanArchitecture.Core.Entites.CourseLessons;
 using CleanArchitecture.Core.Entites.CourseModules;
 using CleanArchitecture.Core.Entites.Courses;
 using CleanArchitecture.Core.Entites.Enrollment;
+using CleanArchitecture.Core.Entites.Exams;
 using CleanArchitecture.Core.Entites.OfflineSession;
 using CleanArchitecture.Core.Entites.ParentsProfile;
 using CleanArchitecture.Core.Entites.Student;
@@ -25,6 +26,9 @@ namespace CleanArchitecture.Infrastructre.Data
 
         public DbSet<OfflineSession> OfflineSessions { get; set; }
         public DbSet<AttendanceRecord> AttendanceRecords { get; set; }
+        public DbSet<Question> Questions { get; set; }
+        public DbSet<QuestionOption> QuestionOptions { get; set; }
+        public DbSet<StudentAnswer> StudentAnswers { get; set; }
 
         public DbSet<Exam> Exams { get; set; }
         public DbSet<ExamResult> ExamResults { get; set; }

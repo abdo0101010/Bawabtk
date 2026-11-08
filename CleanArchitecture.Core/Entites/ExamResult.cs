@@ -1,5 +1,6 @@
 ﻿
 
+using CleanArchitecture.Core.Entites.Exams;
 using CleanArchitecture.Core.Entites.Student;
 using CleanArchitecture.Core.Entites.Users;
 
