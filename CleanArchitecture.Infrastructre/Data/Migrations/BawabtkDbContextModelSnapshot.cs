@@ -17,12 +17,12 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.13")
+                .HasAnnotation("ProductVersion", "10.0.14")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.AttendanceRecord", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.AttendanceRecord.AttendanceRecord", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -138,7 +138,99 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.ToTable("AutomatedNotificationLogs");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.Course", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.CourseLessons.CourseLesson", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<Guid>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<int>("DurationInMinutes")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsFreePreview")
+                        .HasColumnType("bit");
+
+                    b.Property<Guid>("ModifiedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("ModifiedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<int>("ModuleId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PdfUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SortOrder")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("VideoUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("_LessonId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ModuleId");
+
+                    b.ToTable("CourseLessons");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.CourseModules.CourseModule", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<Guid>("ModifiedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("ModifiedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<int>("SortOrder")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("_ModuleId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.ToTable("CourseModules");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Courses.Course", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -199,99 +291,7 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.ToTable("Courses");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.CourseLesson", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<Guid>("CreatedBy")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTimeOffset>("CreatedOn")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<int>("DurationInMinutes")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsFreePreview")
-                        .HasColumnType("bit");
-
-                    b.Property<Guid>("ModifiedBy")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTimeOffset>("ModifiedOn")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<int>("ModuleId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PdfUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("SortOrder")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("VideoUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("_LessonId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ModuleId");
-
-                    b.ToTable("CourseLessons");
-                });
-
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.CourseModule", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CourseId")
-                        .HasColumnType("int");
-
-                    b.Property<Guid>("CreatedBy")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTimeOffset>("CreatedOn")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<Guid>("ModifiedBy")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTimeOffset>("ModifiedOn")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<int>("SortOrder")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("_ModuleId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CourseId");
-
-                    b.ToTable("CourseModules");
-                });
-
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.Enrollment", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Enrollment.Enrollment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -346,62 +346,6 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("Enrollments");
-                });
-
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.Exam", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CourseId")
-                        .HasColumnType("int");
-
-                    b.Property<Guid>("CreatedBy")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTimeOffset>("CreatedOn")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<DateTimeOffset>("ExamDate")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<bool>("IsOnline")
-                        .HasColumnType("bit");
-
-                    b.Property<decimal>("LowGradeAlertThreshold")
-                        .HasColumnType("decimal(8,2)");
-
-                    b.Property<decimal>("MaxScore")
-                        .HasColumnType("decimal(8,2)");
-
-                    b.Property<Guid>("ModifiedBy")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTimeOffset>("ModifiedOn")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<decimal>("PassingScore")
-                        .HasColumnType("decimal(8,2)");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
-                    b.Property<Guid>("_ExamId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CourseId");
-
-                    b.HasIndex("_ExamId")
-                        .IsUnique();
-
-                    b.ToTable("Exams");
                 });
 
             modelBuilder.Entity("CleanArchitecture.Core.Entites.ExamResult", b =>
@@ -464,7 +408,63 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.ToTable("ExamResults");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.OfflineSession", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Exams.Exam", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<DateTimeOffset>("ExamDate")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<bool>("IsOnline")
+                        .HasColumnType("bit");
+
+                    b.Property<decimal>("LowGradeAlertThreshold")
+                        .HasColumnType("decimal(8,2)");
+
+                    b.Property<decimal>("MaxScore")
+                        .HasColumnType("decimal(8,2)");
+
+                    b.Property<Guid>("ModifiedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("ModifiedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<decimal>("PassingScore")
+                        .HasColumnType("decimal(8,2)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<Guid>("_ExamId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("_ExamId")
+                        .IsUnique();
+
+                    b.ToTable("Exams");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.OfflineSession.OfflineSession", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -534,7 +534,7 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.ToTable("OfflineSessions");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.ParentProfile", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.ParentsProfile.ParentProfile", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -591,7 +591,90 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.ToTable("ParentProfiles");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.StudentProfile", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Question", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<Guid>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<int>("ExamId")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("ModifiedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("ModifiedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<decimal>("Points")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("SortOrder")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("_QuestionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ExamId");
+
+                    b.ToTable("Questions");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.QuestionOption", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<Guid>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<bool>("IsCorrect")
+                        .HasColumnType("bit");
+
+                    b.Property<Guid>("ModifiedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("ModifiedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("_OptionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuestionId");
+
+                    b.ToTable("QuestionOptions");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Student.StudentProfile", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -653,7 +736,56 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.ToTable("StudentProfiles");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.User", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.StudentAnswer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<Guid>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<int>("ExamResultId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsCorrect")
+                        .HasColumnType("bit");
+
+                    b.Property<Guid>("ModifiedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTimeOffset>("ModifiedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<decimal>("PointsAwarded")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("SelectedOptionId")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("_StudentAnswerId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ExamResultId");
+
+                    b.HasIndex("QuestionId");
+
+                    b.HasIndex("SelectedOptionId");
+
+                    b.ToTable("StudentAnswers");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Users.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -716,20 +848,20 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.AttendanceRecord", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.AttendanceRecord.AttendanceRecord", b =>
                 {
-                    b.HasOne("CleanArchitecture.Core.Entites.User", "ScannedByAssistant")
+                    b.HasOne("CleanArchitecture.Core.Entites.Users.User", "ScannedByAssistant")
                         .WithMany()
                         .HasForeignKey("ScannedByAssistantId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("CleanArchitecture.Core.Entites.OfflineSession", "Session")
+                    b.HasOne("CleanArchitecture.Core.Entites.OfflineSession.OfflineSession", "Session")
                         .WithMany("AttendanceRecords")
                         .HasForeignKey("SessionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("CleanArchitecture.Core.Entites.StudentProfile", "Student")
+                    b.HasOne("CleanArchitecture.Core.Entites.Student.StudentProfile", "Student")
                         .WithMany("AttendanceRecords")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -744,7 +876,7 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
 
             modelBuilder.Entity("CleanArchitecture.Core.Entites.AutomatedNotificationLog", b =>
                 {
-                    b.HasOne("CleanArchitecture.Core.Entites.StudentProfile", "Student")
+                    b.HasOne("CleanArchitecture.Core.Entites.Student.StudentProfile", "Student")
                         .WithMany("NotificationLogs")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -753,20 +885,9 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.Navigation("Student");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.Course", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.CourseLessons.CourseLesson", b =>
                 {
-                    b.HasOne("CleanArchitecture.Core.Entites.User", "Teacher")
-                        .WithMany("CreatedCourses")
-                        .HasForeignKey("TeacherId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Teacher");
-                });
-
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.CourseLesson", b =>
-                {
-                    b.HasOne("CleanArchitecture.Core.Entites.CourseModule", "Module")
+                    b.HasOne("CleanArchitecture.Core.Entites.CourseModules.CourseModule", "Module")
                         .WithMany("Lessons")
                         .HasForeignKey("ModuleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -775,9 +896,9 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.Navigation("Module");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.CourseModule", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.CourseModules.CourseModule", b =>
                 {
-                    b.HasOne("CleanArchitecture.Core.Entites.Course", "Course")
+                    b.HasOne("CleanArchitecture.Core.Entites.Courses.Course", "Course")
                         .WithMany("Modules")
                         .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -786,15 +907,26 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.Navigation("Course");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.Enrollment", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Courses.Course", b =>
                 {
-                    b.HasOne("CleanArchitecture.Core.Entites.Course", "Course")
+                    b.HasOne("CleanArchitecture.Core.Entites.Users.User", "Teacher")
+                        .WithMany("CreatedCourses")
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Teacher");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Enrollment.Enrollment", b =>
+                {
+                    b.HasOne("CleanArchitecture.Core.Entites.Courses.Course", "Course")
                         .WithMany("Enrollments")
                         .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("CleanArchitecture.Core.Entites.StudentProfile", "Student")
+                    b.HasOne("CleanArchitecture.Core.Entites.Student.StudentProfile", "Student")
                         .WithMany("Enrollments")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -805,30 +937,19 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.Navigation("Student");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.Exam", b =>
-                {
-                    b.HasOne("CleanArchitecture.Core.Entites.Course", "Course")
-                        .WithMany("Exams")
-                        .HasForeignKey("CourseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Course");
-                });
-
             modelBuilder.Entity("CleanArchitecture.Core.Entites.ExamResult", b =>
                 {
-                    b.HasOne("CleanArchitecture.Core.Entites.Exam", "Exam")
+                    b.HasOne("CleanArchitecture.Core.Entites.Exams.Exam", "Exam")
                         .WithMany("ExamResults")
                         .HasForeignKey("ExamId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("CleanArchitecture.Core.Entites.User", "GradedByUser")
+                    b.HasOne("CleanArchitecture.Core.Entites.Users.User", "GradedByUser")
                         .WithMany()
                         .HasForeignKey("GradedByUserId");
 
-                    b.HasOne("CleanArchitecture.Core.Entites.StudentProfile", "Student")
+                    b.HasOne("CleanArchitecture.Core.Entites.Student.StudentProfile", "Student")
                         .WithMany("ExamResults")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -841,13 +962,24 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.Navigation("Student");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.OfflineSession", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Exams.Exam", b =>
                 {
-                    b.HasOne("CleanArchitecture.Core.Entites.User", "ClosedByUser")
+                    b.HasOne("CleanArchitecture.Core.Entites.Courses.Course", "Course")
+                        .WithMany("Exams")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.OfflineSession.OfflineSession", b =>
+                {
+                    b.HasOne("CleanArchitecture.Core.Entites.Users.User", "ClosedByUser")
                         .WithMany()
                         .HasForeignKey("ClosedByUserId");
 
-                    b.HasOne("CleanArchitecture.Core.Entites.Course", "Course")
+                    b.HasOne("CleanArchitecture.Core.Entites.Courses.Course", "Course")
                         .WithMany("OfflineSessions")
                         .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -858,28 +990,50 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.Navigation("Course");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.ParentProfile", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.ParentsProfile.ParentProfile", b =>
                 {
-                    b.HasOne("CleanArchitecture.Core.Entites.User", "User")
+                    b.HasOne("CleanArchitecture.Core.Entites.Users.User", "User")
                         .WithOne("ParentProfile")
-                        .HasForeignKey("CleanArchitecture.Core.Entites.ParentProfile", "UserId")
+                        .HasForeignKey("CleanArchitecture.Core.Entites.ParentsProfile.ParentProfile", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.StudentProfile", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Question", b =>
                 {
-                    b.HasOne("CleanArchitecture.Core.Entites.ParentProfile", "Parent")
+                    b.HasOne("CleanArchitecture.Core.Entites.Exams.Exam", "Exam")
+                        .WithMany("Questions")
+                        .HasForeignKey("ExamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Exam");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.QuestionOption", b =>
+                {
+                    b.HasOne("CleanArchitecture.Core.Entites.Question", "Question")
+                        .WithMany("Options")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Student.StudentProfile", b =>
+                {
+                    b.HasOne("CleanArchitecture.Core.Entites.ParentsProfile.ParentProfile", "Parent")
                         .WithMany("Children")
                         .HasForeignKey("ParentId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("CleanArchitecture.Core.Entites.User", "User")
+                    b.HasOne("CleanArchitecture.Core.Entites.Users.User", "User")
                         .WithOne("StudentProfile")
-                        .HasForeignKey("CleanArchitecture.Core.Entites.StudentProfile", "UserId")
+                        .HasForeignKey("CleanArchitecture.Core.Entites.Student.StudentProfile", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -888,7 +1042,37 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.Course", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.StudentAnswer", b =>
+                {
+                    b.HasOne("CleanArchitecture.Core.Entites.ExamResult", "ExamResult")
+                        .WithMany()
+                        .HasForeignKey("ExamResultId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CleanArchitecture.Core.Entites.Question", "Question")
+                        .WithMany()
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CleanArchitecture.Core.Entites.QuestionOption", "SelectedOption")
+                        .WithMany()
+                        .HasForeignKey("SelectedOptionId");
+
+                    b.Navigation("ExamResult");
+
+                    b.Navigation("Question");
+
+                    b.Navigation("SelectedOption");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.CourseModules.CourseModule", b =>
+                {
+                    b.Navigation("Lessons");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Courses.Course", b =>
                 {
                     b.Navigation("Enrollments");
 
@@ -899,27 +1083,29 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.Navigation("OfflineSessions");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.CourseModule", b =>
-                {
-                    b.Navigation("Lessons");
-                });
-
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.Exam", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Exams.Exam", b =>
                 {
                     b.Navigation("ExamResults");
+
+                    b.Navigation("Questions");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.OfflineSession", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.OfflineSession.OfflineSession", b =>
                 {
                     b.Navigation("AttendanceRecords");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.ParentProfile", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.ParentsProfile.ParentProfile", b =>
                 {
                     b.Navigation("Children");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.StudentProfile", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Question", b =>
+                {
+                    b.Navigation("Options");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Student.StudentProfile", b =>
                 {
                     b.Navigation("AttendanceRecords");
 
@@ -930,7 +1116,7 @@ namespace CleanArchitecture.Infrastructre.Data.Migrations
                     b.Navigation("NotificationLogs");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Entites.User", b =>
+            modelBuilder.Entity("CleanArchitecture.Core.Entites.Users.User", b =>
                 {
                     b.Navigation("CreatedCourses");
 

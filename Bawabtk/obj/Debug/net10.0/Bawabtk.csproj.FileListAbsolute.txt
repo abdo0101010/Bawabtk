@@ -81,6 +81,7 @@ C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\System.DirectorySe
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\System.Drawing.Common.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\System.Security.Permissions.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\System.Windows.Extensions.dll
@@ -185,6 +186,7 @@ C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\runtimes\osx\lib\n
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Core.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Infrastructre.dll
@@ -212,12 +214,9 @@ C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\staticwebassets.bu
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.csproj.Up2Date
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\refint\Bawabtk.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.genruntimeconfig.cache
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\ref\Bawabtk.dll
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
