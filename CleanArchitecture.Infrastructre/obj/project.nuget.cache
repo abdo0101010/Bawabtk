@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JjdZmueDh98=",
+  "dgSpecHash": "TF28MhwdxJ0=",
   "success": true,
   "projectFilePath": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Infrastructre\\CleanArchitecture.Infrastructre.csproj",
   "expectedPackageFiles": [
@@ -96,18 +96,6 @@
       "warningLevel": 1,
       "filePath": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Infrastructre\\CleanArchitecture.Infrastructre.csproj",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338",
-      "projectPath": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Infrastructre\\CleanArchitecture.Infrastructre.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\AbdoA\\source\\repos\\Bawabtk\\CleanArchitecture.Infrastructre\\CleanArchitecture.Infrastructre.csproj",
-      "libraryId": "SharpCompress",
       "targetGraphs": [
         "net10.0"
       ]

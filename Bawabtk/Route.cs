@@ -61,6 +61,16 @@
             public const string UpdateCourseModuleId = CourseModuleRoutes.ReadById + ReadById;
             public const string ReadSingleCourseLessonByCoursemoduleId = CourseModuleRoutes.ReadById + "/{CourseLessonId}";
         }
+        public static class ExamRoutes
+        {
+            public const string BaseUrl = "/Exam";
+            public const string Delete = BaseUrl + "/{ExamId}";
+            
+            public const string ReadById = BaseUrl + "/{ExamId}";
+            public const string Update = BaseUrl + "/{ExamId}";
+            public const string Create = BaseUrl + "/Create";
+
+        }
 
     }
 }

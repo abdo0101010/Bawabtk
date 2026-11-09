@@ -19,6 +19,7 @@ namespace CleanArchitecture.Service.Services.Exam
             if (Course==null)
                 throw new ResultException("cannot found course ", ((int)HttpStatusCode.NotFound));
             var oData = new Core.Entites.Exams.Exam(oContract.Title, oContract.MaxScore, oContract.PassingScore, oContract.LowGradeAlertThreshold, oContract.ExamDate, oContract.IsOnline,Guid.Empty);
+             oData.SetCourse(Course);
             var Exam =await _ExamRepository.AddAsync(oData);
             var oResult = new ExamContract(Exam._ExamId, oContract.CourseId, oContract.Title, oContract.MaxScore, oContract.PassingScore, oContract.LowGradeAlertThreshold, oContract.ExamDate, oContract.IsOnline);
             return oResult as dynamic;
