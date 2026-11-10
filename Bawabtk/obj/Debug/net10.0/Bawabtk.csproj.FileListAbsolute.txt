@@ -1,3 +1,11 @@
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.csproj.AssemblyReference.cache
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.AssemblyInfoInputs.cache
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.AssemblyInfo.cs
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.csproj.CoreCompileInputs.cache
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.sourcelink.json
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\appsettings.json
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\Bawabtk.staticwebassets.endpoints.json
@@ -196,15 +204,6 @@ C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Infrastructre.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Service.pdb
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\bin\Debug\net10.0\CleanArchitecture.Shared.pdb
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.csproj.AssemblyReference.cache
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.AssemblyInfoInputs.cache
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.AssemblyInfo.cs
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.csproj.CoreCompileInputs.cache
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.sourcelink.json
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -214,6 +213,7 @@ C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\staticwebassets.bu
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.csproj.Up2Date
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\Bawabtk.dll
 C:\Users\AbdoA\source\repos\Bawabtk\Bawabtk\obj\Debug\net10.0\refint\Bawabtk.dll

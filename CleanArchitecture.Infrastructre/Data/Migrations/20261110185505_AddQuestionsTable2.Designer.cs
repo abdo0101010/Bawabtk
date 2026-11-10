@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CleanArchitecture.Infrastructre.Data.Migrations
 {
     [DbContext(typeof(BawabtkDbContext))]
-    [Migration("20261109225043_AddQuestionsTable")]
-    partial class AddQuestionsTable
+    [Migration("20261110185505_AddQuestionsTable2")]
+    partial class AddQuestionsTable2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

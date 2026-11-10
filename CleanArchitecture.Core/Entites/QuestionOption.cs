@@ -10,7 +10,7 @@ namespace CleanArchitecture.Core.Entites
         public bool IsCorrect { get; set; } // هل دي الإجابة الصح؟
 
         // Relations
-        public Question Question { get; set; } = null!;
+        public Question.Question Question { get; set; } = null!;
 
         public QuestionOption() { } // ef core ctor
 

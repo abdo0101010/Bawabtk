@@ -79,6 +79,7 @@ namespace CleanArchitecture.Service.Services.Exam
             if(oContract == null)
                 throw new ResultException("cannot send null request", ((int)HttpStatusCode.BadRequest));
             Exam.UpdateExam(oContract.Title, oContract.MaxScore, oContract.PassingScore, oContract.LowGradeAlertThreshold, oContract.ExamDate, oContract.IsOnline, Guid.Empty);
+            await _ExamRepository.UpdateAsync(Exam);
            var oResult = new ExamContract(Exam._ExamId, Exam.Course._CourseId, Exam.Title, Exam.MaxScore, Exam.PassingScore, Exam.LowGradeAlertThreshold, Exam.ExamDate, Exam.IsOnline);
 
             return oResult as dynamic;

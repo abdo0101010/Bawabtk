@@ -16,7 +16,7 @@ namespace CleanArchitecture.Core.Entites.Exams
         // Relations
         public Course Course { get; set; } = null!;
         public List<ExamResult> ExamResults { get; set; } = new();
-        public List<Question> Questions { get; set; } = new();
+        public List<Question.Question> Questions { get; set; } = new();
 
         public Exam() { } // ef core ctor
 

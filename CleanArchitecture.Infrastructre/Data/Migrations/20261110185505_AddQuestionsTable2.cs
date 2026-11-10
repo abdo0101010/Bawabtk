@@ -5,7 +5,7 @@
 namespace CleanArchitecture.Infrastructre.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class AddQuestionsTable : Migration
+    public partial class AddQuestionsTable2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
