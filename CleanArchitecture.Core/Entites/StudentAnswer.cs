@@ -15,7 +15,7 @@ namespace CleanArchitecture.Core.Entites
         public decimal PointsAwarded { get; set; } 
 
         public ExamResult ExamResult { get; set; } = null!;
-        public Question Question { get; set; } = null!;
+        public Question.Question Question { get; set; } = null!;
         public QuestionOption? SelectedOption { get; set; }
 
         public StudentAnswer() { }
