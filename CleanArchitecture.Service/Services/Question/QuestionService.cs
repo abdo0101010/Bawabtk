@@ -55,12 +55,12 @@ namespace CleanArchitecture.Service.Services.Question
             return oResult as dynamic;
         }
 
-        public ValueTask<TResponse> ReadSingleByParentId(Guid id, Guid ParentId)
+        public async ValueTask<TResponse> ReadSingleByParentId(Guid id, Guid ParentId)
         {
             if (id == Guid.Empty || ParentId == Guid.Empty)
                 throw new ResultException("cannot send null id", ((int)HttpStatusCode.BadRequest));
             var spec = new Core.Entites.Question.Specification.ReadSingleByExamIdSpecification(id, ParentId);
-            var Question = _QuestionRepository.FirstOrDefaultAsync(spec).Result;
+            var Question = await _QuestionRepository.FirstOrDefaultAsync(spec);
             if (Question == null)
                 throw new ResultException("cannot found Question ", ((int)HttpStatusCode.NotFound));
             var oResult = new QuestionContract(Question._QuestionId, Question.Exam._ExamId, Question.Text, Question.Points, Question.SortOrder);
@@ -68,19 +68,19 @@ namespace CleanArchitecture.Service.Services.Question
 
         }
 
-        public ValueTask<TResponse> Update(TRequest request, Guid id)
+        public async ValueTask<TResponse> Update(TRequest request, Guid id)
         {
             if (id == Guid.Empty)
                 throw new ResultException("cannot send null id", ((int)HttpStatusCode.BadRequest));
             var oContract = request as QuestionOperationContract;
             var spec = new Core.Entites.Question.Specification.ReadByIdSpecification(id);
-            var Question = _QuestionRepository.FirstOrDefaultAsync(spec).Result;
+            var Question =await _QuestionRepository.FirstOrDefaultAsync(spec);
             if (Question == null)
                 throw new ResultException("cannot found Question ", ((int)HttpStatusCode.NotFound));
             if (oContract == null)
                 throw new ResultException("cannot send null request", ((int)HttpStatusCode.BadRequest));
             Question.UpdateQuestion(oContract.Text, oContract.Points, oContract.SortOrder, Guid.Empty);
-            _QuestionRepository.UpdateAsync(Question);
+          await  _QuestionRepository.UpdateAsync(Question);
             var oResult = new QuestionContract(Question._QuestionId, Question.Exam._ExamId, Question.Text, Question.Points, Question.SortOrder);
             return oResult as dynamic;
 
@@ -94,8 +94,12 @@ namespace CleanArchitecture.Service.Services.Question
             var Question = await _QuestionRepository.FirstOrDefaultAsync(spec);
             if (Question == null)
                 throw new ResultException("cannot found Question ", ((int)HttpStatusCode.NotFound));
-            Question.Exam._ExamId = ParentId;
-           await _QuestionRepository.UpdateAsync(Question);
+            var SpecExam = new Core.Entites.Exams.Specification.ReadByIdSpecification(ParentId);
+            var Exam = await _ExamRepository.FirstOrDefaultAsync(SpecExam);
+            if (Exam == null)
+                throw new ResultException("cannot found Exam ", ((int)HttpStatusCode.NotFound));
+           Question.SetExam(Exam);
+            await _QuestionRepository.UpdateAsync(Question);
 
         }
     }
