@@ -71,6 +71,16 @@
             public const string Create = BaseUrl + "/Create";
 
         }
+        public static class QuestionRoutes
+        {
+            public const string BaseUrl = "/Question";
+            public const string Delete = BaseUrl + "/{QuestionId}";
+            public const string ReadById = BaseUrl + "/{QuestionId}";
+            public const string Update = BaseUrl + "/{QuestionId}";
+            public const string Create = BaseUrl + "/Create";
+            public const string UpdateExamId = ExamRoutes.ReadById + ReadById;
+            public const string ReadSingleQuestionByExamId = ExamRoutes.ReadById + "/{QuestionId}";
+        }
 
     }
 }
