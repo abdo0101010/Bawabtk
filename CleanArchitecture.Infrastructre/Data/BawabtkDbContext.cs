@@ -8,6 +8,7 @@ using CleanArchitecture.Core.Entites.Exams;
 using CleanArchitecture.Core.Entites.OfflineSession;
 using CleanArchitecture.Core.Entites.ParentsProfile;
 using CleanArchitecture.Core.Entites.Question;
+using CleanArchitecture.Core.Entites.QuestionOption;
 using CleanArchitecture.Core.Entites.Student;
 using CleanArchitecture.Core.Entites.Users;
 using Microsoft.EntityFrameworkCore;

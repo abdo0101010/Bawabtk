@@ -1,23 +1,22 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 
-namespace CleanArchitecture.Core.Entites
+namespace CleanArchitecture.Core.Entites.QuestionOption
 {
     public class QuestionOption:BaseEntity
     {
         public Guid _OptionId { get; set; }
-        public int QuestionId { get; set; } // FK -> Question.Id
-        public string Text { get; set; } = string.Empty; // نص الاختيار (أ، ب، ج...)
-        public bool IsCorrect { get; set; } // هل دي الإجابة الصح؟
+        public int QuestionId { get; set; } 
+        public string Text { get; set; } = string.Empty; 
+        public bool IsCorrect { get; set; } 
 
         // Relations
         public Question.Question Question { get; set; } = null!;
 
         public QuestionOption() { } // ef core ctor
 
-        public QuestionOption(int questionId, string text, bool isCorrect, Guid createdBy)
+        public QuestionOption( string text, bool isCorrect, Guid createdBy)
         {
             _OptionId = Guid.NewGuid();
-            QuestionId = questionId;
             Text = text;
             IsCorrect = isCorrect;
             CreatedBy = createdBy;
@@ -25,5 +24,7 @@ namespace CleanArchitecture.Core.Entites
             ModifiedBy = Guid.Empty;
             ModifiedOn = DateTimeOffset.Now;
         }
-    }
+        public void SetQuestion(Question.Question question) => Question = question;
+
+      }
 }

@@ -56,9 +56,7 @@ namespace CleanArchitecture.Service.Services.Question
         }
 
         public async ValueTask<TResponse> ReadSingleByParentId(Guid id, Guid ParentId)
-        {
-            if (id == Guid.Empty || ParentId == Guid.Empty)
-                throw new ResultException("cannot send null id", ((int)HttpStatusCode.BadRequest));
+        {              throw new ResultException("cannot send null id", ((int)HttpStatusCode.BadRequest));
             var spec = new Core.Entites.Question.Specification.ReadSingleByExamIdSpecification(id, ParentId);
             var Question = await _QuestionRepository.FirstOrDefaultAsync(spec);
             if (Question == null)
