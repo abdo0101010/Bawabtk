@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CleanArchitecture.Shared.Contract.QuestionOptionContract
-{
+﻿
+namespace CleanArchitecture.Shared.Contract.QuestionOptionImplemention 
+{ 
     public class QuestionOptionOperationContract
     {
         public Guid QuestionId { get; set; }

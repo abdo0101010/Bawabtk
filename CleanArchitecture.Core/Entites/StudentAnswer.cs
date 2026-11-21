@@ -16,7 +16,7 @@ namespace CleanArchitecture.Core.Entites
 
         public ExamResult ExamResult { get; set; } = null!;
         public Question.Question Question { get; set; } = null!;
-        public QuestionOption? SelectedOption { get; set; }
+        public Core.Entites.QuestionOption.QuestionOption? SelectedOption { get; set; }
 
         public StudentAnswer() { }
 

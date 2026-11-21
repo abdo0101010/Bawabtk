@@ -8,7 +8,7 @@ namespace CleanArchitecture.Core.Entites.QuestionOption.Specification
     {
         public ReadByIdSpecification(Guid id)
         {
-            Query.Where(e => e._OptionId == id);
+            Query.Where(e => e._OptionId == id).Include(q=>q.Question);
         }
     }
 }

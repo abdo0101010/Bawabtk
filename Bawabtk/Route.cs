@@ -81,6 +81,16 @@
             public const string UpdateExamId = ExamRoutes.ReadById + ReadById;
             public const string ReadSingleQuestionByExamId = ExamRoutes.ReadById + "/{QuestionId}";
         }
+        public static class QuestionOptionRoutes
+        {
+            public const string BaseUrl = "/QuestionOption";
+            public const string Delete = BaseUrl + "/{OptionId}";
+            public const string ReadById = BaseUrl + "/{OptionId}";
+            public const string Update = BaseUrl + "/{OptionId}";
+            public const string Create = BaseUrl + "/Create";
+            public const string UpdateQuestionId = QuestionRoutes.ReadById + ReadById;
+            public const string ReadSingleQuestionOptionByQuestionId = QuestionRoutes.ReadById + "/{OptionId}";
+        }
 
     }
 }
