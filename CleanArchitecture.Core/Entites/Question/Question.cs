@@ -15,7 +15,7 @@ namespace CleanArchitecture.Core.Entites.Question
 
         // Relations
         public Exam Exam { get; set; } = null!;
-        public List<QuestionOption> Options { get; set; } = new();
+        public List<Core.Entites.QuestionOption.QuestionOption> Options { get; set; } = new();
 
         public Question() { } // ef core ctor
 

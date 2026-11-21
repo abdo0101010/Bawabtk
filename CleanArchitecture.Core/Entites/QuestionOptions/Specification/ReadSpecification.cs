@@ -8,7 +8,7 @@ namespace CleanArchitecture.Core.Entites.QuestionOption.Specification
     {
         public ReadSpecification()
         {
-            Query.Include(e => e.Question);
+            Query.Include(e => e.Question).Include(q=>q.Question);
         }
     }
     

@@ -25,6 +25,13 @@ namespace CleanArchitecture.Core.Entites.QuestionOption
             ModifiedOn = DateTimeOffset.Now;
         }
         public void SetQuestion(Question.Question question) => Question = question;
+        public void Update(string text, bool isCorrect, Guid modifiedBy)
+        {
+            Text = text;
+            IsCorrect = isCorrect;
+            ModifiedBy = modifiedBy;
+            ModifiedOn = DateTimeOffset.Now;
+        }
 
-      }
+    }
 }

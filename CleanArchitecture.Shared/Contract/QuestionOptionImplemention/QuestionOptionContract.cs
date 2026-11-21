@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Shared.Contract.QuestionOptionContract
+﻿namespace CleanArchitecture.Shared.Contract.QuestionOptionImplemention
 {
     public class QuestionOptionContract
     {
