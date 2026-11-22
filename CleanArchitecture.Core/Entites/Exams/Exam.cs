@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Core.Entites.Courses;
+using CleanArchitecture.Core.Entites.ExamResults;
 
 namespace CleanArchitecture.Core.Entites.Exams
 {
