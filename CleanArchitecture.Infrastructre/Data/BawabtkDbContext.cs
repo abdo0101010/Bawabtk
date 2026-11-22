@@ -4,6 +4,7 @@ using CleanArchitecture.Core.Entites.CourseLessons;
 using CleanArchitecture.Core.Entites.CourseModules;
 using CleanArchitecture.Core.Entites.Courses;
 using CleanArchitecture.Core.Entites.Enrollment;
+using CleanArchitecture.Core.Entites.ExamResults;
 using CleanArchitecture.Core.Entites.Exams;
 using CleanArchitecture.Core.Entites.OfflineSession;
 using CleanArchitecture.Core.Entites.ParentsProfile;
