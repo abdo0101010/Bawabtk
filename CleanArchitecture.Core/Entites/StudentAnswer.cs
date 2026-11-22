@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
+﻿using CleanArchitecture.Core.Entites.ExamResults;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace CleanArchitecture.Core.Entites
 {
@@ -16,7 +17,7 @@ namespace CleanArchitecture.Core.Entites
 
         public ExamResult ExamResult { get; set; } = null!;
         public Question.Question Question { get; set; } = null!;
-        public Core.Entites.QuestionOption.QuestionOption? SelectedOption { get; set; }
+        public Core.Entites.QuestionOption. QuestionOption? SelectedOption { get; set; }
 
         public StudentAnswer() { }
 

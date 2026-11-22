@@ -1,10 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Ardalis.Specification;
 
 namespace CleanArchitecture.Core.Entites.ExamResults.Specification
 {
-    internal class ReadSpecification
+    public class ReadSpecification : Specification<ExamResult>
     {
+        public ReadSpecification()
+        {
+            Query.Include(er => er.Exam)
+                 .Include(er => er.Student)
+                 .Include(er => er.GradedByUser);
+
+        }
     }
 }

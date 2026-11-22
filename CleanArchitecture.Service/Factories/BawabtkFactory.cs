@@ -1,6 +1,7 @@
 ﻿using CleanArchitecture.Core.Entites.CourseLessons;
 using CleanArchitecture.Core.Entites.CourseModules;
 using CleanArchitecture.Core.Entites.Courses;
+using CleanArchitecture.Core.Entites.ExamResults;
 using CleanArchitecture.Core.Entites.Exams;
 using CleanArchitecture.Core.Entites.ParentsProfile;
 using CleanArchitecture.Core.Entites.Question;
@@ -12,6 +13,7 @@ using CleanArchitecture.Service.Services.Course;
 using CleanArchitecture.Service.Services.CourseLesson;
 using CleanArchitecture.Service.Services.CourseModule;
 using CleanArchitecture.Service.Services.Exam;
+using CleanArchitecture.Service.Services.ExamResult;
 using CleanArchitecture.Service.Services.Parent;
 using CleanArchitecture.Service.Services.Question;
 using CleanArchitecture.Service.Services.QuestionOption;
@@ -19,7 +21,7 @@ using CleanArchitecture.Service.Services.Student;
 using huzcodes.Persistence.Interfaces.Repositories;
 namespace CleanArchitecture.Service.Factories
 {
-    public class BawabtkFactory<TRequest, TResponse>(IRepository<User> userrepository,IRepository<ParentProfile>parentrepository,IRepository<StudentProfile> stdrepository, IRepository<Course> Courserepo,IRepository<CourseModule> CourseModulerepo, IRepository<CourseLesson> CourseLessonrepo, IRepository<Exam> ExamRepository,IRepository<Question> QuestionRepository,IRepository<QuestionOption> QuestionOptionRepository)
+    public class BawabtkFactory<TRequest, TResponse>(IRepository<User> userrepository,IRepository<ParentProfile>parentrepository,IRepository<StudentProfile> stdrepository, IRepository<Course> Courserepo,IRepository<CourseModule> CourseModulerepo, IRepository<CourseLesson> CourseLessonrepo, IRepository<Exam> ExamRepository,IRepository<Question> QuestionRepository,IRepository<QuestionOption> QuestionOptionRepository,IRepository<ExamResult> ExamResultRepository)
     {
         private readonly IRepository<Course> _Courserepo = Courserepo;
         private readonly IRepository<CourseLesson> _CourseLessonrepo = CourseLessonrepo;
@@ -30,6 +32,7 @@ namespace CleanArchitecture.Service.Factories
         private readonly IRepository<Exam> _ExamRepository = ExamRepository;
         private readonly IRepository<Question> _QuestionRepository = QuestionRepository;
         private readonly IRepository<QuestionOption> _QuestionOptionRepository = QuestionOptionRepository;
+        private readonly IRepository<ExamResult> _ExamResultRepository = ExamResultRepository;
         public IGenericServices<TRequest, TResponse> Build(string key)
         {
             switch (key)
@@ -50,6 +53,8 @@ namespace CleanArchitecture.Service.Factories
                     return new QuestionService<TRequest, TResponse>(_QuestionRepository, _ExamRepository);
                 case (nameof(QuestionOption)):
                     return new QuestionOptionService<TRequest, TResponse>(_QuestionOptionRepository, _QuestionRepository);
+                    case(nameof(ExamResult)):
+                        return new ExamResultService<TRequest, TResponse>(_ExamResultRepository, _stdrepository, _userrepository, _ExamRepository);
 
                 default:
                     throw new ArgumentException($"Invalid service key: {key}");
