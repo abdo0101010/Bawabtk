@@ -1,42 +1,36 @@
-﻿
-
-using CleanArchitecture.Core.Entites.Exams;
+﻿using CleanArchitecture.Core.Entites.Exams;
 using CleanArchitecture.Core.Entites.Student;
 using CleanArchitecture.Core.Entites.Users;
 
-namespace CleanArchitecture.Core.Entites
+namespace CleanArchitecture.Core.Entites.ExamResults
 {
     public class ExamResult:BaseEntity
     {
         public Guid _ExamResultId { get; set; }
-        public int ExamId { get; set; }    // FK -> Exam.Id
-        public int StudentId { get; set; } // FK -> StudentProfile.Id
+        public int ExamId { get; set; }    
+        public int StudentId { get; set; } 
         public decimal Score { get; set; }
         public DateTimeOffset SubmittedAt { get; set; }
-        public int? GradedByUserId { get; set; } // FK -> User.Id
+        public int? GradedByUserId { get; set; } 
         public string? TeacherFeedback { get; set; }
         public bool IsLowGradeAlertSent { get; set; }
 
-        // Relations
         public Exam Exam { get; set; } = null!;
         public StudentProfile Student { get; set; } = null!;
         public User? GradedByUser { get; set; }
 
-        public ExamResult() { } // ef core ctor
+        public ExamResult() { } 
 
-        public ExamResult(int examId,
-                          int studentId,
+        public ExamResult(
+                         
                           decimal score,
                           Guid createdBy,
-                          int? gradedByUserId = null,
+                         
                           string? teacherFeedback = null)
         {
             _ExamResultId = Guid.NewGuid();
-            ExamId = examId;
-            StudentId = studentId;
             Score = score;
             SubmittedAt = DateTimeOffset.Now;
-            GradedByUserId = gradedByUserId;
             TeacherFeedback = teacherFeedback;
             IsLowGradeAlertSent = false;
             CreatedBy = createdBy;
@@ -44,5 +38,16 @@ namespace CleanArchitecture.Core.Entites
             ModifiedBy = Guid.Empty;
             ModifiedOn = DateTimeOffset.Now;
         }
+        public void SetExam(Exam exam) => Exam = exam;
+        
+        public void Update(decimal score, bool isLowGradeAlertSent)
+        {
+            Score = score;
+
+            IsLowGradeAlertSent = isLowGradeAlertSent;
+
+        }
+        public void SetStudent(StudentProfile student) => Student = student;
+        public void SetUser(User user) => GradedByUser = user;
     }
 }

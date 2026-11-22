@@ -92,5 +92,15 @@
             public const string ReadSingleQuestionOptionByQuestionId = QuestionRoutes.ReadById + "/{OptionId}";
         }
 
+        public static class ExamResultRoutes
+        {
+            public const string BaseUrl = "/ExamResult";
+            public const string Delete = BaseUrl + "/{ExamResultId}";
+            public const string ReadById = BaseUrl + "/{ExamResultId}";
+            public const string Update = BaseUrl + "/{ExamResultId}";
+            public const string Create = BaseUrl + "/Create";
+          
+        }
+
     }
 }

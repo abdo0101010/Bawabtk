@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Ardalis.Specification;
 
 namespace CleanArchitecture.Core.Entites.ExamResults.Specification
 {
-    internal class ReadByIdSpecification
+    public class ReadByIdSpecification:SingleResultSpecification<ExamResult>
     {
+        public ReadByIdSpecification(Guid id)
+        {
+            Query.Where(er => er._ExamResultId == id);
+        }
     }
 }

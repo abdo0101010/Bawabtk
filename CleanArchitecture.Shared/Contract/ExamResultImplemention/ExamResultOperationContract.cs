@@ -1,10 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace CleanArchitecture.Shared.Contract.ExamResultImplemention
 {
-    internal class ExamResultOperationContract
+    public class ExamResultOperationContract
     {
+        public Guid ExamId { get; set; }   
+        public Guid StudentId { get; set; }
+        public decimal Score { get; set; }
+        public DateTimeOffset SubmittedAt { get; set; }
+        public Guid GradedByUserId { get; set; } 
+        public string? TeacherFeedback { get; set; }
+        public bool IsLowGradeAlertSent { get; set; }
     }
 }
